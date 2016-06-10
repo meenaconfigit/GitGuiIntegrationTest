@@ -205,6 +205,10 @@
           <property_values/>
           <language_translations/>
         </variable>
+        <variable name="Length" is_private="false" is_enabled="true" type="String" uuid="c6644dbf-e58c-486c-a955-9e4acbbe4c8a" is_read_only="false">
+          <property_values/>
+          <language_translations/>
+        </variable>
       </group>
       <group name="Frame" is_private="false" is_enabled="true" uuid="2bcbb226-ed1e-417d-ac51-9d6aa8ff0dde" is_read_only="false">
         <description>The frame component contains all available frames with their properties (size, color, etc.)</description>
