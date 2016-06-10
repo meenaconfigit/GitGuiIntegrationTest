@@ -1,0 +1,2668 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- DOCTYPE workspace SYSTEM "modeler.dtd" -->
+<workspace version="58">
+  <product_model name="Laptop" uuid="2116a0ef-6d81-4f46-ad20-9fb31ec9318d">
+    <description>Simple model of available laptops.\n</description>
+    <compile_options>
+      <property_values>
+        <property_value name="cache_size">10</property_value>
+        <property_value name="dynamic_vt">false</property_value>
+        <property_value name="exp_static">true</property_value>
+        <property_value name="log_file"></property_value>
+        <property_value name="no_warnings">false</property_value>
+        <property_value name="preserve_memory">false</property_value>
+        <property_value name="sort_rules">3</property_value>
+        <property_value name="static_vt">true</property_value>
+        <property_value name="support_pct">60</property_value>
+        <property_value name="table_size">10</property_value>
+        <property_value name="timeout">-1</property_value>
+        <property_value name="tob_cache_size">100</property_value>
+        <property_value name="tob_decomp_technique"></property_value>
+        <property_value name="tob_preserve_memory">false</property_value>
+        <property_value name="tob_split">true</property_value>
+        <property_value name="tob_table_size">100</property_value>
+        <property_value name="tob_varorder">-1</property_value>
+        <property_value name="varorder">-1</property_value>
+        <property_value name="verbose_level">false</property_value>
+      </property_values>
+    </compile_options>
+    <property_values>
+      <property_value name="BOMGroupName" property_uuid="de00ea3f-c170-4b25-bb3a-f4639f906cd2">SalesBOM</property_value>
+      <property_value name="Version" property_uuid="3d008a8c-1bb7-4798-9009-c4d424d9fc60">1.0</property_value>
+    </property_values>
+    <product_model_structure>
+      <variable name="Model" is_private="false" is_enabled="true" type="ModelType" uuid="f8d5baa7-cb46-413b-8b69-20b1784cef56" is_read_only="false">
+        <property_values>
+          <property_value name="Required" property_uuid="4f9257f7-5c69-4b6f-ba00-489d5511d8c4">true</property_value>
+        </property_values>
+        <language_translations>
+          <language_translation language="UK">Model</language_translation>
+          <language_translation language="DK">Model</language_translation>
+        </language_translations>
+      </variable>
+      <group name="Preferences" is_private="false" is_enabled="true" uuid="40513500-e4e3-4a04-9ec6-675ce228ba6e" is_read_only="false">
+        <property_values/>
+        <rules/>
+        <relations>
+          <relation name="UsageRelation" is_enabled="true" uuid="8ea0591f-1dfe-4794-9d0c-a17961fe2e5a" is_read_only="false">
+            <relation_columns>
+              <relation_column variable_uuid="f8d5baa7-cb46-413b-8b69-20b1784cef56" variable_name="Model"/>
+              <relation_column variable_uuid="0ee5791a-4b47-4834-9af6-9ce08a6e3c5d" variable_name="Preferences.Usage"/>
+            </relation_columns>
+            <relation_values>
+              <relation_row>
+                <relation_value>{V,&quot;6f193d56-4c18-4694-9e51-d117f7b37de2&quot;,&quot;Extreme170&quot;}</relation_value>
+                <relation_value>{V,&quot;e263e5b5-9089-4a42-8873-978530aeff30&quot;,&quot;Desktop Replacement&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;f55f757d-44c8-4625-b21d-1796d056eab8&quot;,&quot;E17&quot;}</relation_value>
+                <relation_value>{V,&quot;e263e5b5-9089-4a42-8873-978530aeff30&quot;,&quot;Desktop Replacement&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;c55dc69c-89a5-4c5d-92fb-801bf25d9a1f&quot;,&quot;E15&quot;}</relation_value>
+                <relation_value>{V,&quot;e263e5b5-9089-4a42-8873-978530aeff30&quot;,&quot;Desktop Replacement&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;32db1595-6312-4b8b-9a87-e4bb2a002337&quot;,&quot;B13&quot;}</relation_value>
+                <relation_value>{V,&quot;890d4761-0117-4fb9-ad1d-6daeebf87b24&quot;,&quot;Basic Computing&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;2bbc4c77-2caa-46ff-8459-d7c92d08e749&quot;,&quot;B12&quot;}</relation_value>
+                <relation_value>{V,&quot;890d4761-0117-4fb9-ad1d-6daeebf87b24&quot;,&quot;Basic Computing&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;3482e151-1281-40d6-b13f-32f1e0802005&quot;,&quot;X1&quot;}</relation_value>
+                <relation_value>{V,&quot;02a7fdd7-def0-4440-af4f-3574ed27b7ba&quot;,&quot;Lightweight Traveler&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;6f193d56-4c18-4694-9e51-d117f7b37de2&quot;,&quot;Extreme170&quot;}</relation_value>
+                <relation_value>{V,&quot;e5daae12-0c47-43a7-9c4b-78b3371bfeaa&quot;,&quot;Gaming&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;d067a399-9f71-4053-8947-afee3abcedbf&quot;,&quot;Extreme140&quot;}</relation_value>
+                <relation_value>{V,&quot;e5daae12-0c47-43a7-9c4b-78b3371bfeaa&quot;,&quot;Gaming&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;c55dc69c-89a5-4c5d-92fb-801bf25d9a1f&quot;,&quot;E15&quot;}</relation_value>
+                <relation_value>{V,&quot;02a7fdd7-def0-4440-af4f-3574ed27b7ba&quot;,&quot;Lightweight Traveler&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;bcf4ee1b-ecc6-4863-ab37-d4318abfbce6&quot;,&quot;N71&quot;}</relation_value>
+                <relation_value>{V,&quot;890d4761-0117-4fb9-ad1d-6daeebf87b24&quot;,&quot;Basic Computing&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;bcf4ee1b-ecc6-4863-ab37-d4318abfbce6&quot;,&quot;N71&quot;}</relation_value>
+                <relation_value>{V,&quot;e263e5b5-9089-4a42-8873-978530aeff30&quot;,&quot;Desktop Replacement&quot;}</relation_value>
+              </relation_row>
+            </relation_values>
+          </relation>
+          <relation name="WeightRelation" is_enabled="true" uuid="42cfd4ae-ab43-482f-9eab-9aea6d2918af" is_read_only="false">
+            <relation_columns>
+              <relation_column variable_uuid="f8d5baa7-cb46-413b-8b69-20b1784cef56" variable_name="Model"/>
+              <relation_column variable_uuid="db1057b8-bfd2-422d-98f4-03f458af90ec" variable_name="Preferences.Weight"/>
+            </relation_columns>
+            <relation_values>
+              <relation_row>
+                <relation_value>{V,&quot;c55dc69c-89a5-4c5d-92fb-801bf25d9a1f&quot;,&quot;E15&quot;}</relation_value>
+                <relation_value>{V,&quot;25e20340-dd31-44b7-a372-43bf1c612856&quot;,&quot;5 - 7 lbs.&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;f55f757d-44c8-4625-b21d-1796d056eab8&quot;,&quot;E17&quot;}</relation_value>
+                <relation_value>{V,&quot;b86cc504-6429-4037-b7fe-a1ba3ca57ced&quot;,&quot;Over 7 lbs.&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;6f193d56-4c18-4694-9e51-d117f7b37de2&quot;,&quot;Extreme170&quot;}</relation_value>
+                <relation_value>{V,&quot;b86cc504-6429-4037-b7fe-a1ba3ca57ced&quot;,&quot;Over 7 lbs.&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;d067a399-9f71-4053-8947-afee3abcedbf&quot;,&quot;Extreme140&quot;}</relation_value>
+                <relation_value>{V,&quot;25e20340-dd31-44b7-a372-43bf1c612856&quot;,&quot;5 - 7 lbs.&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;3482e151-1281-40d6-b13f-32f1e0802005&quot;,&quot;X1&quot;}</relation_value>
+                <relation_value>{V,&quot;22ab2f92-7f5f-4136-a1f7-5dbe17e9ff5a&quot;,&quot;3 - 5 lbs.&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;bcf4ee1b-ecc6-4863-ab37-d4318abfbce6&quot;,&quot;N71&quot;}</relation_value>
+                <relation_value>{V,&quot;25e20340-dd31-44b7-a372-43bf1c612856&quot;,&quot;5 - 7 lbs.&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;2bbc4c77-2caa-46ff-8459-d7c92d08e749&quot;,&quot;B12&quot;}</relation_value>
+                <relation_value>{V,&quot;25e20340-dd31-44b7-a372-43bf1c612856&quot;,&quot;5 - 7 lbs.&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;32db1595-6312-4b8b-9a87-e4bb2a002337&quot;,&quot;B13&quot;}</relation_value>
+                <relation_value>{V,&quot;25e20340-dd31-44b7-a372-43bf1c612856&quot;,&quot;5 - 7 lbs.&quot;}</relation_value>
+              </relation_row>
+            </relation_values>
+          </relation>
+          <relation name="WebEmailRelation" is_enabled="true" uuid="6ae39f90-3a5a-4117-835d-3255d3e0fb73" is_read_only="false">
+            <relation_columns>
+              <relation_column variable_uuid="f8d5baa7-cb46-413b-8b69-20b1784cef56" variable_name="Model"/>
+              <relation_column variable_uuid="5838db66-520b-455f-ad95-688d1d58d6c1" variable_name="Preferences.Web_and_email"/>
+            </relation_columns>
+            <relation_values>
+              <relation_row>
+                <relation_value>{V,&quot;6f193d56-4c18-4694-9e51-d117f7b37de2&quot;,&quot;Extreme170&quot;}</relation_value>
+                <relation_value>true</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;d067a399-9f71-4053-8947-afee3abcedbf&quot;,&quot;Extreme140&quot;}</relation_value>
+                <relation_value>true</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;bcf4ee1b-ecc6-4863-ab37-d4318abfbce6&quot;,&quot;N71&quot;}</relation_value>
+                <relation_value>true</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;f55f757d-44c8-4625-b21d-1796d056eab8&quot;,&quot;E17&quot;}</relation_value>
+                <relation_value>true</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;c55dc69c-89a5-4c5d-92fb-801bf25d9a1f&quot;,&quot;E15&quot;}</relation_value>
+                <relation_value>true</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;32db1595-6312-4b8b-9a87-e4bb2a002337&quot;,&quot;B13&quot;}</relation_value>
+                <relation_value>true</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;2bbc4c77-2caa-46ff-8459-d7c92d08e749&quot;,&quot;B12&quot;}</relation_value>
+                <relation_value>true</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;3482e151-1281-40d6-b13f-32f1e0802005&quot;,&quot;X1&quot;}</relation_value>
+                <relation_value>true</relation_value>
+              </relation_row>
+            </relation_values>
+          </relation>
+          <relation name="MProcessorRelation" is_enabled="true" uuid="493696a5-f630-4a40-adb5-39a1a97a2401" is_read_only="false">
+            <relation_columns>
+              <relation_column variable_uuid="f9ea7e3c-03be-4476-aaa4-8cf75c512816" variable_name="TechSpecs.Processor.Cpu"/>
+              <relation_column variable_uuid="5f22336c-0d91-42cd-a429-c6e369fa7bce" variable_name="Preferences.M_processor"/>
+            </relation_columns>
+            <relation_values>
+              <relation_row>
+                <relation_value>{V,&quot;ba6c84fa-4c77-4df0-9103-9e9e927e6652&quot;,&quot;M360&quot;}</relation_value>
+                <relation_value>true</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;732ecb52-0667-4467-b3aa-dab4811e1f65&quot;,&quot;M370&quot;}</relation_value>
+                <relation_value>true</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;1f11cbe8-0a0c-4039-984a-b8763e937857&quot;,&quot;M733&quot;}</relation_value>
+                <relation_value>true</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;a93638e0-dd4e-4076-92da-33c610b9a8c3&quot;,&quot;M735&quot;}</relation_value>
+                <relation_value>true</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;db5ea8c3-a91c-481d-b456-d92e454218d1&quot;,&quot;M740&quot;}</relation_value>
+                <relation_value>true</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;4b50c130-4c40-4795-a5d8-46bd537f58e4&quot;,&quot;M750&quot;}</relation_value>
+                <relation_value>true</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;0fa2134a-4724-4fcc-bda4-b6e25a312eb3&quot;,&quot;M755&quot;}</relation_value>
+                <relation_value>true</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;587bd93d-e99a-40a4-900a-dea03daa41ca&quot;,&quot;M760&quot;}</relation_value>
+                <relation_value>true</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;1c5dc0a0-3ef0-48a6-9541-1fbb698faa92&quot;,&quot;M770&quot;}</relation_value>
+                <relation_value>true</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;da18dc74-c8b5-45dd-a390-ad30655eea9e&quot;,&quot;M780&quot;}</relation_value>
+                <relation_value>true</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;30e16b3d-ef99-43ce-bdae-97d25267e57b&quot;,&quot;T2300&quot;}</relation_value>
+                <relation_value>false</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;41a9d8ae-d02d-47bb-ae9a-77ddad3c6eda&quot;,&quot;T2400&quot;}</relation_value>
+                <relation_value>false</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;30025c23-4789-4d93-83f0-1c6bb36db3c9&quot;,&quot;T2500&quot;}</relation_value>
+                <relation_value>false</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;7201a451-91ef-4de1-b98a-7261cf05c538&quot;,&quot;T1300&quot;}</relation_value>
+                <relation_value>false</relation_value>
+              </relation_row>
+            </relation_values>
+          </relation>
+          <relation name="HighResolutionDisplay" is_enabled="true" uuid="df8d5554-79d4-4f6f-8265-f72b441aa68c" is_read_only="false">
+            <relation_columns>
+              <relation_column variable_uuid="8c41beaf-cdb1-462d-b45c-a3344c0afb7b" variable_name="TechSpecs.Display.Resolution"/>
+              <relation_column variable_uuid="47248b6d-33cb-4ebb-927c-3de1acc23746" variable_name="Preferences.HighResDisplay"/>
+            </relation_columns>
+            <relation_values>
+              <relation_row>
+                <relation_value>{V,&quot;16d4f7cd-7b9c-4da0-8954-937059679393&quot;,&quot;Wide XGA+ (1680 x 1050)&quot;}</relation_value>
+                <relation_value>true</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;45366235-9516-4803-b81b-534d06e297a6&quot;,&quot;Wide UXGA (1920 x 1200)&quot;}</relation_value>
+                <relation_value>true</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;4cf2261d-f5fe-4cda-a41a-1ee0ba8beb7e&quot;,&quot;Wide XGA (1280 x 720)&quot;}</relation_value>
+                <relation_value>false</relation_value>
+              </relation_row>
+            </relation_values>
+          </relation>
+          <relation name="DualProcessor" is_enabled="true" uuid="d5eefa23-db73-4ead-a88d-0ede507c95ad" is_read_only="false">
+            <relation_columns>
+              <relation_column variable_uuid="f9ea7e3c-03be-4476-aaa4-8cf75c512816" variable_name="TechSpecs.Processor.Cpu"/>
+              <relation_column variable_uuid="852a9c0f-00d2-4618-9042-da5358edb682" variable_name="Preferences.DualProcessor"/>
+            </relation_columns>
+            <relation_values>
+              <relation_row>
+                <relation_value>{V,&quot;ba6c84fa-4c77-4df0-9103-9e9e927e6652&quot;,&quot;M360&quot;}</relation_value>
+                <relation_value>true</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;732ecb52-0667-4467-b3aa-dab4811e1f65&quot;,&quot;M370&quot;}</relation_value>
+                <relation_value>true</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;1f11cbe8-0a0c-4039-984a-b8763e937857&quot;,&quot;M733&quot;}</relation_value>
+                <relation_value>true</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;a93638e0-dd4e-4076-92da-33c610b9a8c3&quot;,&quot;M735&quot;}</relation_value>
+                <relation_value>true</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;db5ea8c3-a91c-481d-b456-d92e454218d1&quot;,&quot;M740&quot;}</relation_value>
+                <relation_value>true</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;4b50c130-4c40-4795-a5d8-46bd537f58e4&quot;,&quot;M750&quot;}</relation_value>
+                <relation_value>true</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;0fa2134a-4724-4fcc-bda4-b6e25a312eb3&quot;,&quot;M755&quot;}</relation_value>
+                <relation_value>true</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;587bd93d-e99a-40a4-900a-dea03daa41ca&quot;,&quot;M760&quot;}</relation_value>
+                <relation_value>true</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;1c5dc0a0-3ef0-48a6-9541-1fbb698faa92&quot;,&quot;M770&quot;}</relation_value>
+                <relation_value>true</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;7201a451-91ef-4de1-b98a-7261cf05c538&quot;,&quot;T1300&quot;}</relation_value>
+                <relation_value>true</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;da18dc74-c8b5-45dd-a390-ad30655eea9e&quot;,&quot;M780&quot;}</relation_value>
+                <relation_value>true</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;30025c23-4789-4d93-83f0-1c6bb36db3c9&quot;,&quot;T2500&quot;}</relation_value>
+                <relation_value>false</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;41a9d8ae-d02d-47bb-ae9a-77ddad3c6eda&quot;,&quot;T2400&quot;}</relation_value>
+                <relation_value>false</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;30e16b3d-ef99-43ce-bdae-97d25267e57b&quot;,&quot;T2300&quot;}</relation_value>
+                <relation_value>false</relation_value>
+              </relation_row>
+            </relation_values>
+          </relation>
+        </relations>
+        <functions/>
+        <language_translations>
+          <language_translation language="UK">Preferences</language_translation>
+          <language_translation language="DK">Præferencer</language_translation>
+        </language_translations>
+        <variable name="Usage" is_private="false" is_enabled="true" type="UsageType" uuid="0ee5791a-4b47-4834-9af6-9ce08a6e3c5d" is_read_only="false">
+          <property_values/>
+          <language_translations>
+            <language_translation language="UK">Usage</language_translation>
+            <language_translation language="DK">Anvendelse</language_translation>
+          </language_translations>
+        </variable>
+        <variable name="Weight" is_private="false" is_enabled="true" type="WeightIntervalType" uuid="db1057b8-bfd2-422d-98f4-03f458af90ec" is_read_only="false">
+          <property_values/>
+          <language_translations>
+            <language_translation language="UK">Weight</language_translation>
+            <language_translation language="DK">Vægt</language_translation>
+          </language_translations>
+        </variable>
+        <variable name="Web_and_email" is_private="false" is_enabled="true" type="Boolean" uuid="5838db66-520b-455f-ad95-688d1d58d6c1" is_read_only="false">
+          <property_values/>
+          <language_translations>
+            <language_translation language="UK">Web surfing and e-mail capabilities</language_translation>
+            <language_translation language="DK">Web og e-mail</language_translation>
+          </language_translations>
+        </variable>
+        <variable name="M_processor" is_private="false" is_enabled="true" type="Boolean" uuid="5f22336c-0d91-42cd-a429-c6e369fa7bce" is_read_only="false">
+          <property_values/>
+          <language_translations>
+            <language_translation language="UK">Intel Pentium M Processor</language_translation>
+            <language_translation language="DK">Intel Pentium M Processor</language_translation>
+          </language_translations>
+        </variable>
+        <variable name="HighResDisplay" is_private="false" is_enabled="true" type="Boolean" uuid="47248b6d-33cb-4ebb-927c-3de1acc23746" is_read_only="false">
+          <property_values/>
+          <language_translations>
+            <language_translation language="UK">High resolution display</language_translation>
+            <language_translation language="DK">Højopløsningsskærm</language_translation>
+          </language_translations>
+        </variable>
+        <variable name="DualProcessor" is_private="false" is_enabled="true" type="Boolean" uuid="852a9c0f-00d2-4618-9042-da5358edb682" is_read_only="false">
+          <property_values/>
+          <language_translations>
+            <language_translation language="UK">Dual processor</language_translation>
+            <language_translation language="DK">Dual processor</language_translation>
+          </language_translations>
+        </variable>
+      </group>
+      <group name="TechSpecs" is_private="false" is_enabled="true" uuid="9e8e47ec-db17-4eff-9ec6-6d126cb797fd" is_read_only="false">
+        <property_values/>
+        <rules/>
+        <relations/>
+        <functions/>
+        <language_translations>
+          <language_translation language="UK">Technical Specifications</language_translation>
+          <language_translation language="DK">Tekniske specifikationer</language_translation>
+        </language_translations>
+        <group name="Processor" is_private="false" is_enabled="true" uuid="2e8e9dc5-0a6d-4ba1-9a9e-37ffc2d31fd4" is_read_only="false">
+          <property_values/>
+          <rules/>
+          <relations>
+            <relation name="Cpu" is_enabled="true" uuid="fd287a41-f215-45a5-ad0b-520cce850a36" is_read_only="false">
+              <relation_columns>
+                <relation_column variable_uuid="f9ea7e3c-03be-4476-aaa4-8cf75c512816" variable_name="TechSpecs.Processor.Cpu"/>
+                <relation_column variable_uuid="f8d5baa7-cb46-413b-8b69-20b1784cef56" variable_name="Model"/>
+              </relation_columns>
+              <relation_values>
+                <relation_row>
+                  <relation_value>{V,&quot;ba6c84fa-4c77-4df0-9103-9e9e927e6652&quot;,&quot;M360&quot;}</relation_value>
+                  <relation_value>{V,&quot;2bbc4c77-2caa-46ff-8459-d7c92d08e749&quot;,&quot;B12&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;732ecb52-0667-4467-b3aa-dab4811e1f65&quot;,&quot;M370&quot;}</relation_value>
+                  <relation_value>{V,&quot;32db1595-6312-4b8b-9a87-e4bb2a002337&quot;,&quot;B13&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;a93638e0-dd4e-4076-92da-33c610b9a8c3&quot;,&quot;M735&quot;}</relation_value>
+                  <relation_value>{V,&quot;32db1595-6312-4b8b-9a87-e4bb2a002337&quot;,&quot;B13&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;7201a451-91ef-4de1-b98a-7261cf05c538&quot;,&quot;T1300&quot;}</relation_value>
+                  <relation_value>{V,&quot;f55f757d-44c8-4625-b21d-1796d056eab8&quot;,&quot;E17&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;30025c23-4789-4d93-83f0-1c6bb36db3c9&quot;,&quot;T2500&quot;}</relation_value>
+                  <relation_value>{V,&quot;c55dc69c-89a5-4c5d-92fb-801bf25d9a1f&quot;,&quot;E15&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;41a9d8ae-d02d-47bb-ae9a-77ddad3c6eda&quot;,&quot;T2400&quot;}</relation_value>
+                  <relation_value>{V,&quot;c55dc69c-89a5-4c5d-92fb-801bf25d9a1f&quot;,&quot;E15&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;30e16b3d-ef99-43ce-bdae-97d25267e57b&quot;,&quot;T2300&quot;}</relation_value>
+                  <relation_value>{V,&quot;c55dc69c-89a5-4c5d-92fb-801bf25d9a1f&quot;,&quot;E15&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;0fa2134a-4724-4fcc-bda4-b6e25a312eb3&quot;,&quot;M755&quot;}</relation_value>
+                  <relation_value>{V,&quot;bcf4ee1b-ecc6-4863-ab37-d4318abfbce6&quot;,&quot;N71&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;a93638e0-dd4e-4076-92da-33c610b9a8c3&quot;,&quot;M735&quot;}</relation_value>
+                  <relation_value>{V,&quot;bcf4ee1b-ecc6-4863-ab37-d4318abfbce6&quot;,&quot;N71&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;a93638e0-dd4e-4076-92da-33c610b9a8c3&quot;,&quot;M735&quot;}</relation_value>
+                  <relation_value>{V,&quot;d067a399-9f71-4053-8947-afee3abcedbf&quot;,&quot;Extreme140&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;db5ea8c3-a91c-481d-b456-d92e454218d1&quot;,&quot;M740&quot;}</relation_value>
+                  <relation_value>{V,&quot;d067a399-9f71-4053-8947-afee3abcedbf&quot;,&quot;Extreme140&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;4b50c130-4c40-4795-a5d8-46bd537f58e4&quot;,&quot;M750&quot;}</relation_value>
+                  <relation_value>{V,&quot;d067a399-9f71-4053-8947-afee3abcedbf&quot;,&quot;Extreme140&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;587bd93d-e99a-40a4-900a-dea03daa41ca&quot;,&quot;M760&quot;}</relation_value>
+                  <relation_value>{V,&quot;d067a399-9f71-4053-8947-afee3abcedbf&quot;,&quot;Extreme140&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;1c5dc0a0-3ef0-48a6-9541-1fbb698faa92&quot;,&quot;M770&quot;}</relation_value>
+                  <relation_value>{V,&quot;d067a399-9f71-4053-8947-afee3abcedbf&quot;,&quot;Extreme140&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;da18dc74-c8b5-45dd-a390-ad30655eea9e&quot;,&quot;M780&quot;}</relation_value>
+                  <relation_value>{V,&quot;6f193d56-4c18-4694-9e51-d117f7b37de2&quot;,&quot;Extreme170&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;1c5dc0a0-3ef0-48a6-9541-1fbb698faa92&quot;,&quot;M770&quot;}</relation_value>
+                  <relation_value>{V,&quot;6f193d56-4c18-4694-9e51-d117f7b37de2&quot;,&quot;Extreme170&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;587bd93d-e99a-40a4-900a-dea03daa41ca&quot;,&quot;M760&quot;}</relation_value>
+                  <relation_value>{V,&quot;6f193d56-4c18-4694-9e51-d117f7b37de2&quot;,&quot;Extreme170&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;1f11cbe8-0a0c-4039-984a-b8763e937857&quot;,&quot;M733&quot;}</relation_value>
+                  <relation_value>{V,&quot;3482e151-1281-40d6-b13f-32f1e0802005&quot;,&quot;X1&quot;}</relation_value>
+                </relation_row>
+              </relation_values>
+            </relation>
+          </relations>
+          <functions/>
+          <language_translations>
+            <language_translation language="UK">Processor</language_translation>
+            <language_translation language="DK">Processor</language_translation>
+          </language_translations>
+          <variable name="Cpu" is_private="false" is_enabled="true" type="CPUType" uuid="f9ea7e3c-03be-4476-aaa4-8cf75c512816" is_read_only="false">
+            <property_values>
+              <property_value name="Required" property_uuid="4f9257f7-5c69-4b6f-ba00-489d5511d8c4">true</property_value>
+            </property_values>
+            <language_translations>
+              <language_translation language="UK">CPU</language_translation>
+              <language_translation language="DK">CPU</language_translation>
+            </language_translations>
+          </variable>
+        </group>
+        <group name="Memory" is_private="false" is_enabled="true" uuid="accc544d-238d-423e-be02-c9fff1bf60c9" is_read_only="false">
+          <property_values/>
+          <rules/>
+          <relations>
+            <relation name="Memory" is_enabled="true" uuid="bb55fa10-8c41-43af-b81d-c50e5c673b7d" is_read_only="false">
+              <relation_columns>
+                <relation_column variable_uuid="ec71625e-445c-4266-9568-b511607c0fbd" variable_name="TechSpecs.Memory.Memory"/>
+                <relation_column variable_uuid="f8d5baa7-cb46-413b-8b69-20b1784cef56" variable_name="Model"/>
+              </relation_columns>
+              <relation_values>
+                <relation_row>
+                  <relation_value>{V,&quot;c62b0874-b466-48b2-8b48-68bab84fed82&quot;,&quot;512MB DDR2 SDRAM at 533MHz, 2 DIMM&quot;}</relation_value>
+                  <relation_value>{V,&quot;2bbc4c77-2caa-46ff-8459-d7c92d08e749&quot;,&quot;B12&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;c62b0874-b466-48b2-8b48-68bab84fed82&quot;,&quot;512MB DDR2 SDRAM at 533MHz, 2 DIMM&quot;}</relation_value>
+                  <relation_value>{V,&quot;32db1595-6312-4b8b-9a87-e4bb2a002337&quot;,&quot;B13&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;df8f8f32-7add-4bf7-873b-4ef4c6d57dc6&quot;,&quot;1GB DDR2 SDRAM at 533MHz, 2 DIMM&quot;}</relation_value>
+                  <relation_value>{V,&quot;32db1595-6312-4b8b-9a87-e4bb2a002337&quot;,&quot;B13&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;c62b0874-b466-48b2-8b48-68bab84fed82&quot;,&quot;512MB DDR2 SDRAM at 533MHz, 2 DIMM&quot;}</relation_value>
+                  <relation_value>{V,&quot;f55f757d-44c8-4625-b21d-1796d056eab8&quot;,&quot;E17&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;df8f8f32-7add-4bf7-873b-4ef4c6d57dc6&quot;,&quot;1GB DDR2 SDRAM at 533MHz, 2 DIMM&quot;}</relation_value>
+                  <relation_value>{V,&quot;f55f757d-44c8-4625-b21d-1796d056eab8&quot;,&quot;E17&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;3c96ef13-9ff3-4d9d-8a28-4e2e93472c9f&quot;,&quot;2GB DDR2 SDRAM at 533MHz, 2 DIMM&quot;}</relation_value>
+                  <relation_value>{V,&quot;f55f757d-44c8-4625-b21d-1796d056eab8&quot;,&quot;E17&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;5aeaf19d-7556-4deb-ad62-f66534215446&quot;,&quot;512MB DDR2 SDRAM at 667MHz, 2 DIMM&quot;}</relation_value>
+                  <relation_value>{V,&quot;f55f757d-44c8-4625-b21d-1796d056eab8&quot;,&quot;E17&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;184c5464-8e49-4466-bd2a-9ab4a706a08f&quot;,&quot;1GB DDR2 SDRAM at 667MHz, 2 DIMM&quot;}</relation_value>
+                  <relation_value>{V,&quot;f55f757d-44c8-4625-b21d-1796d056eab8&quot;,&quot;E17&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;dcccb61f-1b44-400e-bf4d-c0cf926a55c4&quot;,&quot;2GB DDR2 SDRAM at 667MHz, 2 DIMM&quot;}</relation_value>
+                  <relation_value>{V,&quot;f55f757d-44c8-4625-b21d-1796d056eab8&quot;,&quot;E17&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;c62b0874-b466-48b2-8b48-68bab84fed82&quot;,&quot;512MB DDR2 SDRAM at 533MHz, 2 DIMM&quot;}</relation_value>
+                  <relation_value>{V,&quot;c55dc69c-89a5-4c5d-92fb-801bf25d9a1f&quot;,&quot;E15&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;5b96599c-ae30-4c66-ad08-6e75db9e9591&quot;,&quot;512MB DDR2 SDRAM at 533MHz, 1 DIMM&quot;}</relation_value>
+                  <relation_value>{V,&quot;c55dc69c-89a5-4c5d-92fb-801bf25d9a1f&quot;,&quot;E15&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;df8f8f32-7add-4bf7-873b-4ef4c6d57dc6&quot;,&quot;1GB DDR2 SDRAM at 533MHz, 2 DIMM&quot;}</relation_value>
+                  <relation_value>{V,&quot;c55dc69c-89a5-4c5d-92fb-801bf25d9a1f&quot;,&quot;E15&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;3c96ef13-9ff3-4d9d-8a28-4e2e93472c9f&quot;,&quot;2GB DDR2 SDRAM at 533MHz, 2 DIMM&quot;}</relation_value>
+                  <relation_value>{V,&quot;c55dc69c-89a5-4c5d-92fb-801bf25d9a1f&quot;,&quot;E15&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;c62b0874-b466-48b2-8b48-68bab84fed82&quot;,&quot;512MB DDR2 SDRAM at 533MHz, 2 DIMM&quot;}</relation_value>
+                  <relation_value>{V,&quot;bcf4ee1b-ecc6-4863-ab37-d4318abfbce6&quot;,&quot;N71&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;5b96599c-ae30-4c66-ad08-6e75db9e9591&quot;,&quot;512MB DDR2 SDRAM at 533MHz, 1 DIMM&quot;}</relation_value>
+                  <relation_value>{V,&quot;bcf4ee1b-ecc6-4863-ab37-d4318abfbce6&quot;,&quot;N71&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;df8f8f32-7add-4bf7-873b-4ef4c6d57dc6&quot;,&quot;1GB DDR2 SDRAM at 533MHz, 2 DIMM&quot;}</relation_value>
+                  <relation_value>{V,&quot;bcf4ee1b-ecc6-4863-ab37-d4318abfbce6&quot;,&quot;N71&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;870208c8-9f14-4844-b13c-b8932ecd8694&quot;,&quot;1GB DDR SDRAM at 533MHz, 1 DIMM&quot;}</relation_value>
+                  <relation_value>{V,&quot;bcf4ee1b-ecc6-4863-ab37-d4318abfbce6&quot;,&quot;N71&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;3c96ef13-9ff3-4d9d-8a28-4e2e93472c9f&quot;,&quot;2GB DDR2 SDRAM at 533MHz, 2 DIMM&quot;}</relation_value>
+                  <relation_value>{V,&quot;bcf4ee1b-ecc6-4863-ab37-d4318abfbce6&quot;,&quot;N71&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;c62b0874-b466-48b2-8b48-68bab84fed82&quot;,&quot;512MB DDR2 SDRAM at 533MHz, 2 DIMM&quot;}</relation_value>
+                  <relation_value>{V,&quot;d067a399-9f71-4053-8947-afee3abcedbf&quot;,&quot;Extreme140&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;5b96599c-ae30-4c66-ad08-6e75db9e9591&quot;,&quot;512MB DDR2 SDRAM at 533MHz, 1 DIMM&quot;}</relation_value>
+                  <relation_value>{V,&quot;d067a399-9f71-4053-8947-afee3abcedbf&quot;,&quot;Extreme140&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;df8f8f32-7add-4bf7-873b-4ef4c6d57dc6&quot;,&quot;1GB DDR2 SDRAM at 533MHz, 2 DIMM&quot;}</relation_value>
+                  <relation_value>{V,&quot;d067a399-9f71-4053-8947-afee3abcedbf&quot;,&quot;Extreme140&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;3c96ef13-9ff3-4d9d-8a28-4e2e93472c9f&quot;,&quot;2GB DDR2 SDRAM at 533MHz, 2 DIMM&quot;}</relation_value>
+                  <relation_value>{V,&quot;d067a399-9f71-4053-8947-afee3abcedbf&quot;,&quot;Extreme140&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;df8f8f32-7add-4bf7-873b-4ef4c6d57dc6&quot;,&quot;1GB DDR2 SDRAM at 533MHz, 2 DIMM&quot;}</relation_value>
+                  <relation_value>{V,&quot;6f193d56-4c18-4694-9e51-d117f7b37de2&quot;,&quot;Extreme170&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;3c96ef13-9ff3-4d9d-8a28-4e2e93472c9f&quot;,&quot;2GB DDR2 SDRAM at 533MHz, 2 DIMM&quot;}</relation_value>
+                  <relation_value>{V,&quot;6f193d56-4c18-4694-9e51-d117f7b37de2&quot;,&quot;Extreme170&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;725c78bc-9804-44ab-a940-9dafee8338d2&quot;,&quot;768MB DDR2 533MHz SDRAM, (256MB Integrated) 2 DIMM&quot;}</relation_value>
+                  <relation_value>{V,&quot;3482e151-1281-40d6-b13f-32f1e0802005&quot;,&quot;X1&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;6d3b5ecd-8f47-4410-8927-13ef9d3bd6af&quot;,&quot;1.28GB DDR2 533MHz SDRAM, (256MB Integrated) 2 DIMM&quot;}</relation_value>
+                  <relation_value>{V,&quot;3482e151-1281-40d6-b13f-32f1e0802005&quot;,&quot;X1&quot;}</relation_value>
+                </relation_row>
+              </relation_values>
+            </relation>
+          </relations>
+          <functions/>
+          <language_translations>
+            <language_translation language="UK">Memory</language_translation>
+            <language_translation language="DK">Lager</language_translation>
+          </language_translations>
+          <variable name="Memory" is_private="false" is_enabled="true" type="MemoryType" uuid="ec71625e-445c-4266-9568-b511607c0fbd" is_read_only="false">
+            <property_values>
+              <property_value name="Required" property_uuid="4f9257f7-5c69-4b6f-ba00-489d5511d8c4">true</property_value>
+            </property_values>
+            <language_translations>
+              <language_translation language="UK">Memory</language_translation>
+              <language_translation language="DK">Lager</language_translation>
+            </language_translations>
+          </variable>
+        </group>
+        <group name="HardDrives" is_private="false" is_enabled="true" uuid="0d48d889-21c3-4f0b-8805-9ed91ddfd742" is_read_only="false">
+          <property_values/>
+          <rules/>
+          <relations>
+            <relation name="HardDrive" is_enabled="true" uuid="5f1c8e28-7dfe-4985-be20-4a0b260b77b3" is_read_only="false">
+              <relation_columns>
+                <relation_column variable_uuid="4a463e29-5809-4013-bd53-80409a643e97" variable_name="TechSpecs.HardDrives.hd"/>
+                <relation_column variable_uuid="f8d5baa7-cb46-413b-8b69-20b1784cef56" variable_name="Model"/>
+              </relation_columns>
+              <relation_values>
+                <relation_row>
+                  <relation_value>{V,&quot;92fe93c9-7b01-4f02-b498-b2a8f0144688&quot;,&quot;40GB_5400&quot;}</relation_value>
+                  <relation_value>{V,&quot;2bbc4c77-2caa-46ff-8459-d7c92d08e749&quot;,&quot;B12&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;40b235b9-364c-410b-a030-c500ff7f1b3b&quot;,&quot;60GB_5400&quot;}</relation_value>
+                  <relation_value>{V,&quot;32db1595-6312-4b8b-9a87-e4bb2a002337&quot;,&quot;B13&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;fc11e8d1-0507-42e6-bb3d-cf532511dfe4&quot;,&quot;80GB_5400&quot;}</relation_value>
+                  <relation_value>{V,&quot;32db1595-6312-4b8b-9a87-e4bb2a002337&quot;,&quot;B13&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;40b235b9-364c-410b-a030-c500ff7f1b3b&quot;,&quot;60GB_5400&quot;}</relation_value>
+                  <relation_value>{V,&quot;c55dc69c-89a5-4c5d-92fb-801bf25d9a1f&quot;,&quot;E15&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;5e711fa4-8d86-4263-874a-839071516f06&quot;,&quot;60GB_7200&quot;}</relation_value>
+                  <relation_value>{V,&quot;c55dc69c-89a5-4c5d-92fb-801bf25d9a1f&quot;,&quot;E15&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;fc11e8d1-0507-42e6-bb3d-cf532511dfe4&quot;,&quot;80GB_5400&quot;}</relation_value>
+                  <relation_value>{V,&quot;c55dc69c-89a5-4c5d-92fb-801bf25d9a1f&quot;,&quot;E15&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;59cb1768-16bd-4a9b-b665-7e77751da248&quot;,&quot;80GB_7200&quot;}</relation_value>
+                  <relation_value>{V,&quot;c55dc69c-89a5-4c5d-92fb-801bf25d9a1f&quot;,&quot;E15&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;e82eaec7-ae19-494a-a23e-ddc90d32327e&quot;,&quot;100GB_5400&quot;}</relation_value>
+                  <relation_value>{V,&quot;c55dc69c-89a5-4c5d-92fb-801bf25d9a1f&quot;,&quot;E15&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;5ff4129e-f80f-4c02-a13d-fabf4008733a&quot;,&quot;100GB_7200&quot;}</relation_value>
+                  <relation_value>{V,&quot;c55dc69c-89a5-4c5d-92fb-801bf25d9a1f&quot;,&quot;E15&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;352213f2-13eb-4216-ac99-255b810cf835&quot;,&quot;120GB_5400&quot;}</relation_value>
+                  <relation_value>{V,&quot;c55dc69c-89a5-4c5d-92fb-801bf25d9a1f&quot;,&quot;E15&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;92fe93c9-7b01-4f02-b498-b2a8f0144688&quot;,&quot;40GB_5400&quot;}</relation_value>
+                  <relation_value>{V,&quot;c55dc69c-89a5-4c5d-92fb-801bf25d9a1f&quot;,&quot;E15&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;40b235b9-364c-410b-a030-c500ff7f1b3b&quot;,&quot;60GB_5400&quot;}</relation_value>
+                  <relation_value>{V,&quot;f55f757d-44c8-4625-b21d-1796d056eab8&quot;,&quot;E17&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;5e711fa4-8d86-4263-874a-839071516f06&quot;,&quot;60GB_7200&quot;}</relation_value>
+                  <relation_value>{V,&quot;f55f757d-44c8-4625-b21d-1796d056eab8&quot;,&quot;E17&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;fc11e8d1-0507-42e6-bb3d-cf532511dfe4&quot;,&quot;80GB_5400&quot;}</relation_value>
+                  <relation_value>{V,&quot;f55f757d-44c8-4625-b21d-1796d056eab8&quot;,&quot;E17&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;59cb1768-16bd-4a9b-b665-7e77751da248&quot;,&quot;80GB_7200&quot;}</relation_value>
+                  <relation_value>{V,&quot;f55f757d-44c8-4625-b21d-1796d056eab8&quot;,&quot;E17&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;e82eaec7-ae19-494a-a23e-ddc90d32327e&quot;,&quot;100GB_5400&quot;}</relation_value>
+                  <relation_value>{V,&quot;f55f757d-44c8-4625-b21d-1796d056eab8&quot;,&quot;E17&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;5ff4129e-f80f-4c02-a13d-fabf4008733a&quot;,&quot;100GB_7200&quot;}</relation_value>
+                  <relation_value>{V,&quot;f55f757d-44c8-4625-b21d-1796d056eab8&quot;,&quot;E17&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;352213f2-13eb-4216-ac99-255b810cf835&quot;,&quot;120GB_5400&quot;}</relation_value>
+                  <relation_value>{V,&quot;f55f757d-44c8-4625-b21d-1796d056eab8&quot;,&quot;E17&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;40b235b9-364c-410b-a030-c500ff7f1b3b&quot;,&quot;60GB_5400&quot;}</relation_value>
+                  <relation_value>{V,&quot;bcf4ee1b-ecc6-4863-ab37-d4318abfbce6&quot;,&quot;N71&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;5e711fa4-8d86-4263-874a-839071516f06&quot;,&quot;60GB_7200&quot;}</relation_value>
+                  <relation_value>{V,&quot;bcf4ee1b-ecc6-4863-ab37-d4318abfbce6&quot;,&quot;N71&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;fc11e8d1-0507-42e6-bb3d-cf532511dfe4&quot;,&quot;80GB_5400&quot;}</relation_value>
+                  <relation_value>{V,&quot;bcf4ee1b-ecc6-4863-ab37-d4318abfbce6&quot;,&quot;N71&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;59cb1768-16bd-4a9b-b665-7e77751da248&quot;,&quot;80GB_7200&quot;}</relation_value>
+                  <relation_value>{V,&quot;bcf4ee1b-ecc6-4863-ab37-d4318abfbce6&quot;,&quot;N71&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;e82eaec7-ae19-494a-a23e-ddc90d32327e&quot;,&quot;100GB_5400&quot;}</relation_value>
+                  <relation_value>{V,&quot;bcf4ee1b-ecc6-4863-ab37-d4318abfbce6&quot;,&quot;N71&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;5ff4129e-f80f-4c02-a13d-fabf4008733a&quot;,&quot;100GB_7200&quot;}</relation_value>
+                  <relation_value>{V,&quot;bcf4ee1b-ecc6-4863-ab37-d4318abfbce6&quot;,&quot;N71&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;352213f2-13eb-4216-ac99-255b810cf835&quot;,&quot;120GB_5400&quot;}</relation_value>
+                  <relation_value>{V,&quot;bcf4ee1b-ecc6-4863-ab37-d4318abfbce6&quot;,&quot;N71&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;40b235b9-364c-410b-a030-c500ff7f1b3b&quot;,&quot;60GB_5400&quot;}</relation_value>
+                  <relation_value>{V,&quot;d067a399-9f71-4053-8947-afee3abcedbf&quot;,&quot;Extreme140&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;5e711fa4-8d86-4263-874a-839071516f06&quot;,&quot;60GB_7200&quot;}</relation_value>
+                  <relation_value>{V,&quot;d067a399-9f71-4053-8947-afee3abcedbf&quot;,&quot;Extreme140&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;fc11e8d1-0507-42e6-bb3d-cf532511dfe4&quot;,&quot;80GB_5400&quot;}</relation_value>
+                  <relation_value>{V,&quot;d067a399-9f71-4053-8947-afee3abcedbf&quot;,&quot;Extreme140&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;59cb1768-16bd-4a9b-b665-7e77751da248&quot;,&quot;80GB_7200&quot;}</relation_value>
+                  <relation_value>{V,&quot;d067a399-9f71-4053-8947-afee3abcedbf&quot;,&quot;Extreme140&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;e82eaec7-ae19-494a-a23e-ddc90d32327e&quot;,&quot;100GB_5400&quot;}</relation_value>
+                  <relation_value>{V,&quot;d067a399-9f71-4053-8947-afee3abcedbf&quot;,&quot;Extreme140&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;5ff4129e-f80f-4c02-a13d-fabf4008733a&quot;,&quot;100GB_7200&quot;}</relation_value>
+                  <relation_value>{V,&quot;d067a399-9f71-4053-8947-afee3abcedbf&quot;,&quot;Extreme140&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;352213f2-13eb-4216-ac99-255b810cf835&quot;,&quot;120GB_5400&quot;}</relation_value>
+                  <relation_value>{V,&quot;d067a399-9f71-4053-8947-afee3abcedbf&quot;,&quot;Extreme140&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;5e711fa4-8d86-4263-874a-839071516f06&quot;,&quot;60GB_7200&quot;}</relation_value>
+                  <relation_value>{V,&quot;6f193d56-4c18-4694-9e51-d117f7b37de2&quot;,&quot;Extreme170&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;59cb1768-16bd-4a9b-b665-7e77751da248&quot;,&quot;80GB_7200&quot;}</relation_value>
+                  <relation_value>{V,&quot;6f193d56-4c18-4694-9e51-d117f7b37de2&quot;,&quot;Extreme170&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;5ff4129e-f80f-4c02-a13d-fabf4008733a&quot;,&quot;100GB_7200&quot;}</relation_value>
+                  <relation_value>{V,&quot;6f193d56-4c18-4694-9e51-d117f7b37de2&quot;,&quot;Extreme170&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;352213f2-13eb-4216-ac99-255b810cf835&quot;,&quot;120GB_5400&quot;}</relation_value>
+                  <relation_value>{V,&quot;6f193d56-4c18-4694-9e51-d117f7b37de2&quot;,&quot;Extreme170&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;03ebf48a-1744-4155-9ed8-2da296d02572&quot;,&quot;80GB_4200&quot;}</relation_value>
+                  <relation_value>{V,&quot;3482e151-1281-40d6-b13f-32f1e0802005&quot;,&quot;X1&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;fc11e8d1-0507-42e6-bb3d-cf532511dfe4&quot;,&quot;80GB_5400&quot;}</relation_value>
+                  <relation_value>{V,&quot;3482e151-1281-40d6-b13f-32f1e0802005&quot;,&quot;X1&quot;}</relation_value>
+                </relation_row>
+              </relation_values>
+            </relation>
+            <relation name="ExternalHardDrive" is_enabled="true" uuid="64eebf72-a6d6-49a9-960a-407dc0937b12" is_read_only="false">
+              <relation_columns>
+                <relation_column variable_uuid="06158828-7b98-49c9-acd5-81182d96e093" variable_name="TechSpecs.HardDrives.external_2"/>
+                <relation_column variable_uuid="f8d5baa7-cb46-413b-8b69-20b1784cef56" variable_name="Model"/>
+              </relation_columns>
+              <relation_values>
+                <relation_row>
+                  <relation_value>{V,&quot;05fb209a-bac9-432b-ba95-d2ac137fc127&quot;,&quot;None&quot;}</relation_value>
+                  <relation_value>{V,&quot;6f193d56-4c18-4694-9e51-d117f7b37de2&quot;,&quot;Extreme170&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;05fb209a-bac9-432b-ba95-d2ac137fc127&quot;,&quot;None&quot;}</relation_value>
+                  <relation_value>{V,&quot;d067a399-9f71-4053-8947-afee3abcedbf&quot;,&quot;Extreme140&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;05fb209a-bac9-432b-ba95-d2ac137fc127&quot;,&quot;None&quot;}</relation_value>
+                  <relation_value>{V,&quot;bcf4ee1b-ecc6-4863-ab37-d4318abfbce6&quot;,&quot;N71&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;05fb209a-bac9-432b-ba95-d2ac137fc127&quot;,&quot;None&quot;}</relation_value>
+                  <relation_value>{V,&quot;f55f757d-44c8-4625-b21d-1796d056eab8&quot;,&quot;E17&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;05fb209a-bac9-432b-ba95-d2ac137fc127&quot;,&quot;None&quot;}</relation_value>
+                  <relation_value>{V,&quot;c55dc69c-89a5-4c5d-92fb-801bf25d9a1f&quot;,&quot;E15&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;05fb209a-bac9-432b-ba95-d2ac137fc127&quot;,&quot;None&quot;}</relation_value>
+                  <relation_value>{V,&quot;32db1595-6312-4b8b-9a87-e4bb2a002337&quot;,&quot;B13&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;05fb209a-bac9-432b-ba95-d2ac137fc127&quot;,&quot;None&quot;}</relation_value>
+                  <relation_value>{V,&quot;2bbc4c77-2caa-46ff-8459-d7c92d08e749&quot;,&quot;B12&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;05fb209a-bac9-432b-ba95-d2ac137fc127&quot;,&quot;None&quot;}</relation_value>
+                  <relation_value>{V,&quot;3482e151-1281-40d6-b13f-32f1e0802005&quot;,&quot;X1&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;bfab73a0-6855-4426-99a7-636ea8094719&quot;,&quot;WD_80GB&quot;}</relation_value>
+                  <relation_value>{V,&quot;c55dc69c-89a5-4c5d-92fb-801bf25d9a1f&quot;,&quot;E15&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;93f65a32-21fe-4dc5-8db6-4d58ad5cec38&quot;,&quot;WD_160GB&quot;}</relation_value>
+                  <relation_value>{V,&quot;c55dc69c-89a5-4c5d-92fb-801bf25d9a1f&quot;,&quot;E15&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;bfab73a0-6855-4426-99a7-636ea8094719&quot;,&quot;WD_80GB&quot;}</relation_value>
+                  <relation_value>{V,&quot;bcf4ee1b-ecc6-4863-ab37-d4318abfbce6&quot;,&quot;N71&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;bfab73a0-6855-4426-99a7-636ea8094719&quot;,&quot;WD_80GB&quot;}</relation_value>
+                  <relation_value>{V,&quot;d067a399-9f71-4053-8947-afee3abcedbf&quot;,&quot;Extreme140&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;bfab73a0-6855-4426-99a7-636ea8094719&quot;,&quot;WD_80GB&quot;}</relation_value>
+                  <relation_value>{V,&quot;6f193d56-4c18-4694-9e51-d117f7b37de2&quot;,&quot;Extreme170&quot;}</relation_value>
+                </relation_row>
+              </relation_values>
+            </relation>
+            <relation name="ComboDrive" is_enabled="true" uuid="e2bd5ef4-3929-401b-94e2-bfe4aa7791e8" is_read_only="false">
+              <relation_columns>
+                <relation_column variable_uuid="a86d7dbd-47fb-4164-b9dd-c7057d8096d6" variable_name="TechSpecs.HardDrives.combo"/>
+                <relation_column variable_uuid="f8d5baa7-cb46-413b-8b69-20b1784cef56" variable_name="Model"/>
+              </relation_columns>
+              <relation_values>
+                <relation_row>
+                  <relation_value>{V,&quot;8f3a3a14-fc9b-4fb9-a197-17a8a94dc54b&quot;,&quot;24X_CD_DVD&quot;}</relation_value>
+                  <relation_value>{V,&quot;2bbc4c77-2caa-46ff-8459-d7c92d08e749&quot;,&quot;B12&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;8f3a3a14-fc9b-4fb9-a197-17a8a94dc54b&quot;,&quot;24X_CD_DVD&quot;}</relation_value>
+                  <relation_value>{V,&quot;32db1595-6312-4b8b-9a87-e4bb2a002337&quot;,&quot;B13&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;8f3a3a14-fc9b-4fb9-a197-17a8a94dc54b&quot;,&quot;24X_CD_DVD&quot;}</relation_value>
+                  <relation_value>{V,&quot;c55dc69c-89a5-4c5d-92fb-801bf25d9a1f&quot;,&quot;E15&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;8f3a3a14-fc9b-4fb9-a197-17a8a94dc54b&quot;,&quot;24X_CD_DVD&quot;}</relation_value>
+                  <relation_value>{V,&quot;f55f757d-44c8-4625-b21d-1796d056eab8&quot;,&quot;E17&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;8f3a3a14-fc9b-4fb9-a197-17a8a94dc54b&quot;,&quot;24X_CD_DVD&quot;}</relation_value>
+                  <relation_value>{V,&quot;bcf4ee1b-ecc6-4863-ab37-d4318abfbce6&quot;,&quot;N71&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;1e0cabc2-4af2-4185-8267-5d5a433ffe5b&quot;,&quot;8X_DVD_w&quot;}</relation_value>
+                  <relation_value>{V,&quot;bcf4ee1b-ecc6-4863-ab37-d4318abfbce6&quot;,&quot;N71&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;1e0cabc2-4af2-4185-8267-5d5a433ffe5b&quot;,&quot;8X_DVD_w&quot;}</relation_value>
+                  <relation_value>{V,&quot;d067a399-9f71-4053-8947-afee3abcedbf&quot;,&quot;Extreme140&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;8f3a3a14-fc9b-4fb9-a197-17a8a94dc54b&quot;,&quot;24X_CD_DVD&quot;}</relation_value>
+                  <relation_value>{V,&quot;d067a399-9f71-4053-8947-afee3abcedbf&quot;,&quot;Extreme140&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;8f3a3a14-fc9b-4fb9-a197-17a8a94dc54b&quot;,&quot;24X_CD_DVD&quot;}</relation_value>
+                  <relation_value>{V,&quot;6f193d56-4c18-4694-9e51-d117f7b37de2&quot;,&quot;Extreme170&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;1e0cabc2-4af2-4185-8267-5d5a433ffe5b&quot;,&quot;8X_DVD_w&quot;}</relation_value>
+                  <relation_value>{V,&quot;6f193d56-4c18-4694-9e51-d117f7b37de2&quot;,&quot;Extreme170&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;8f3a3a14-fc9b-4fb9-a197-17a8a94dc54b&quot;,&quot;24X_CD_DVD&quot;}</relation_value>
+                  <relation_value>{V,&quot;3482e151-1281-40d6-b13f-32f1e0802005&quot;,&quot;X1&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;1e0cabc2-4af2-4185-8267-5d5a433ffe5b&quot;,&quot;8X_DVD_w&quot;}</relation_value>
+                  <relation_value>{V,&quot;3482e151-1281-40d6-b13f-32f1e0802005&quot;,&quot;X1&quot;}</relation_value>
+                </relation_row>
+              </relation_values>
+            </relation>
+          </relations>
+          <functions/>
+          <language_translations>
+            <language_translation language="UK">Harddrives</language_translation>
+            <language_translation language="DK">Harddiske</language_translation>
+          </language_translations>
+          <variable name="hd" is_private="false" is_enabled="true" type="HardDriveType" uuid="4a463e29-5809-4013-bd53-80409a643e97" is_read_only="false">
+            <property_values>
+              <property_value name="Required" property_uuid="4f9257f7-5c69-4b6f-ba00-489d5511d8c4">true</property_value>
+            </property_values>
+            <language_translations>
+              <language_translation language="UK">Hard Drive</language_translation>
+              <language_translation language="DK">Harddisk</language_translation>
+            </language_translations>
+          </variable>
+          <variable name="external_2" is_private="false" is_enabled="true" type="ExternalHardDriveType" uuid="06158828-7b98-49c9-acd5-81182d96e093" is_read_only="false">
+            <property_values/>
+            <language_translations>
+              <language_translation language="UK">External Hard Drive</language_translation>
+              <language_translation language="DK">Eksternt harddisk</language_translation>
+            </language_translations>
+          </variable>
+          <variable name="combo" is_private="false" is_enabled="true" type="ComboDriveType" uuid="a86d7dbd-47fb-4164-b9dd-c7057d8096d6" is_read_only="false">
+            <property_values/>
+            <language_translations>
+              <language_translation language="UK">CD/DVD Drive</language_translation>
+              <language_translation language="DK">CD/DVD drev</language_translation>
+            </language_translations>
+          </variable>
+        </group>
+        <group name="Display" is_private="false" is_enabled="true" uuid="3c2d31a9-9213-442f-8607-f63fb6b8ad79" is_read_only="false">
+          <property_values/>
+          <rules/>
+          <relations>
+            <relation name="Size" is_enabled="true" uuid="312a0d0a-95ee-4caa-8473-f7ba8035cb8e" is_read_only="false">
+              <relation_columns>
+                <relation_column variable_uuid="f8d5baa7-cb46-413b-8b69-20b1784cef56" variable_name="Model"/>
+                <relation_column variable_uuid="a3de82c1-618a-4c80-b878-ef08569d89ef" variable_name="TechSpecs.Display.Size"/>
+                <relation_column variable_uuid="8c41beaf-cdb1-462d-b45c-a3344c0afb7b" variable_name="TechSpecs.Display.Resolution"/>
+              </relation_columns>
+              <relation_values>
+                <relation_row>
+                  <relation_value>{V,&quot;6f193d56-4c18-4694-9e51-d117f7b37de2&quot;,&quot;Extreme170&quot;}</relation_value>
+                  <relation_value>{V,&quot;b22f9c76-cb95-4ff7-b0ed-8366f8a4d0b0&quot;,&quot;17 inch&quot;}</relation_value>
+                  <relation_value>{V,&quot;45366235-9516-4803-b81b-534d06e297a6&quot;,&quot;Wide UXGA (1920 x 1200)&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;d067a399-9f71-4053-8947-afee3abcedbf&quot;,&quot;Extreme140&quot;}</relation_value>
+                  <relation_value>{V,&quot;41a43e61-2b07-416e-b53b-3e7d581b05ff&quot;,&quot;14.1 inch&quot;}</relation_value>
+                  <relation_value>{V,&quot;4cf2261d-f5fe-4cda-a41a-1ee0ba8beb7e&quot;,&quot;Wide XGA (1280 x 720)&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;bcf4ee1b-ecc6-4863-ab37-d4318abfbce6&quot;,&quot;N71&quot;}</relation_value>
+                  <relation_value>{V,&quot;064226b6-7f1f-429f-ab74-1b5c125e8797&quot;,&quot;12.1 inch&quot;}</relation_value>
+                  <relation_value>{V,&quot;4cf2261d-f5fe-4cda-a41a-1ee0ba8beb7e&quot;,&quot;Wide XGA (1280 x 720)&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;f55f757d-44c8-4625-b21d-1796d056eab8&quot;,&quot;E17&quot;}</relation_value>
+                  <relation_value>{V,&quot;b22f9c76-cb95-4ff7-b0ed-8366f8a4d0b0&quot;,&quot;17 inch&quot;}</relation_value>
+                  <relation_value>{V,&quot;16d4f7cd-7b9c-4da0-8954-937059679393&quot;,&quot;Wide XGA+ (1680 x 1050)&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;c55dc69c-89a5-4c5d-92fb-801bf25d9a1f&quot;,&quot;E15&quot;}</relation_value>
+                  <relation_value>{V,&quot;41c9cd03-35d9-4124-a404-c77ea4c6b762&quot;,&quot;15.4 inch&quot;}</relation_value>
+                  <relation_value>{V,&quot;16d4f7cd-7b9c-4da0-8954-937059679393&quot;,&quot;Wide XGA+ (1680 x 1050)&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;32db1595-6312-4b8b-9a87-e4bb2a002337&quot;,&quot;B13&quot;}</relation_value>
+                  <relation_value>{V,&quot;41c9cd03-35d9-4124-a404-c77ea4c6b762&quot;,&quot;15.4 inch&quot;}</relation_value>
+                  <relation_value>{V,&quot;4cf2261d-f5fe-4cda-a41a-1ee0ba8beb7e&quot;,&quot;Wide XGA (1280 x 720)&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;2bbc4c77-2caa-46ff-8459-d7c92d08e749&quot;,&quot;B12&quot;}</relation_value>
+                  <relation_value>{V,&quot;41a43e61-2b07-416e-b53b-3e7d581b05ff&quot;,&quot;14.1 inch&quot;}</relation_value>
+                  <relation_value>{V,&quot;4cf2261d-f5fe-4cda-a41a-1ee0ba8beb7e&quot;,&quot;Wide XGA (1280 x 720)&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;3482e151-1281-40d6-b13f-32f1e0802005&quot;,&quot;X1&quot;}</relation_value>
+                  <relation_value>{V,&quot;064226b6-7f1f-429f-ab74-1b5c125e8797&quot;,&quot;12.1 inch&quot;}</relation_value>
+                  <relation_value>{V,&quot;4cf2261d-f5fe-4cda-a41a-1ee0ba8beb7e&quot;,&quot;Wide XGA (1280 x 720)&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;f55f757d-44c8-4625-b21d-1796d056eab8&quot;,&quot;E17&quot;}</relation_value>
+                  <relation_value>{V,&quot;b22f9c76-cb95-4ff7-b0ed-8366f8a4d0b0&quot;,&quot;17 inch&quot;}</relation_value>
+                  <relation_value>{V,&quot;45366235-9516-4803-b81b-534d06e297a6&quot;,&quot;Wide UXGA (1920 x 1200)&quot;}</relation_value>
+                </relation_row>
+              </relation_values>
+            </relation>
+          </relations>
+          <functions/>
+          <language_translations>
+            <language_translation language="UK">Display</language_translation>
+            <language_translation language="DK">Skærm</language_translation>
+          </language_translations>
+          <variable name="Resolution" is_private="false" is_enabled="true" type="ResolutionType" uuid="8c41beaf-cdb1-462d-b45c-a3344c0afb7b" is_read_only="false">
+            <property_values>
+              <property_value name="Required" property_uuid="4f9257f7-5c69-4b6f-ba00-489d5511d8c4">true</property_value>
+            </property_values>
+            <language_translations>
+              <language_translation language="UK">Resolution</language_translation>
+              <language_translation language="DK">Opløsning</language_translation>
+            </language_translations>
+          </variable>
+          <variable name="Size" is_private="false" is_enabled="true" type="DisplaySizeType" uuid="a3de82c1-618a-4c80-b878-ef08569d89ef" is_read_only="false">
+            <property_values>
+              <property_value name="Required" property_uuid="4f9257f7-5c69-4b6f-ba00-489d5511d8c4">true</property_value>
+            </property_values>
+            <language_translations>
+              <language_translation language="UK">Size</language_translation>
+              <language_translation language="DK">Størrelse</language_translation>
+            </language_translations>
+          </variable>
+        </group>
+        <group name="Power" is_private="false" is_enabled="true" uuid="71aa9f23-5758-4e9e-9734-1efdb998da7a" is_read_only="false">
+          <property_values/>
+          <rules/>
+          <relations>
+            <relation name="PrimaryBattery" is_enabled="true" uuid="b69478cb-f497-47ae-b563-6d32513125a6" is_read_only="false">
+              <relation_columns>
+                <relation_column variable_uuid="e7c0208b-24ce-4a8d-a847-d52f8b3f7665" variable_name="TechSpecs.Power.PrimaryBattery"/>
+                <relation_column variable_uuid="f8d5baa7-cb46-413b-8b69-20b1784cef56" variable_name="Model"/>
+              </relation_columns>
+              <relation_values>
+                <relation_row>
+                  <relation_value>{V,&quot;675d7f90-fb3a-4606-abbc-269bb703af31&quot;,&quot;4_cell&quot;}</relation_value>
+                  <relation_value>{V,&quot;2bbc4c77-2caa-46ff-8459-d7c92d08e749&quot;,&quot;B12&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;675d7f90-fb3a-4606-abbc-269bb703af31&quot;,&quot;4_cell&quot;}</relation_value>
+                  <relation_value>{V,&quot;32db1595-6312-4b8b-9a87-e4bb2a002337&quot;,&quot;B13&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;80fed87a-4811-45a5-b4bf-6e32dc992068&quot;,&quot;6_cell&quot;}</relation_value>
+                  <relation_value>{V,&quot;32db1595-6312-4b8b-9a87-e4bb2a002337&quot;,&quot;B13&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;a8060d52-36c3-4107-973f-787e5ca1f5cc&quot;,&quot;8_cell&quot;}</relation_value>
+                  <relation_value>{V,&quot;bcf4ee1b-ecc6-4863-ab37-d4318abfbce6&quot;,&quot;N71&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;675d7f90-fb3a-4606-abbc-269bb703af31&quot;,&quot;4_cell&quot;}</relation_value>
+                  <relation_value>{V,&quot;bcf4ee1b-ecc6-4863-ab37-d4318abfbce6&quot;,&quot;N71&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;80fed87a-4811-45a5-b4bf-6e32dc992068&quot;,&quot;6_cell&quot;}</relation_value>
+                  <relation_value>{V,&quot;d067a399-9f71-4053-8947-afee3abcedbf&quot;,&quot;Extreme140&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;62c70760-37c0-4725-a072-1eb531afbaa1&quot;,&quot;9_cell&quot;}</relation_value>
+                  <relation_value>{V,&quot;d067a399-9f71-4053-8947-afee3abcedbf&quot;,&quot;Extreme140&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;80fed87a-4811-45a5-b4bf-6e32dc992068&quot;,&quot;6_cell&quot;}</relation_value>
+                  <relation_value>{V,&quot;f55f757d-44c8-4625-b21d-1796d056eab8&quot;,&quot;E17&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;62c70760-37c0-4725-a072-1eb531afbaa1&quot;,&quot;9_cell&quot;}</relation_value>
+                  <relation_value>{V,&quot;f55f757d-44c8-4625-b21d-1796d056eab8&quot;,&quot;E17&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;80fed87a-4811-45a5-b4bf-6e32dc992068&quot;,&quot;6_cell&quot;}</relation_value>
+                  <relation_value>{V,&quot;c55dc69c-89a5-4c5d-92fb-801bf25d9a1f&quot;,&quot;E15&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;62c70760-37c0-4725-a072-1eb531afbaa1&quot;,&quot;9_cell&quot;}</relation_value>
+                  <relation_value>{V,&quot;c55dc69c-89a5-4c5d-92fb-801bf25d9a1f&quot;,&quot;E15&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;62c70760-37c0-4725-a072-1eb531afbaa1&quot;,&quot;9_cell&quot;}</relation_value>
+                  <relation_value>{V,&quot;6f193d56-4c18-4694-9e51-d117f7b37de2&quot;,&quot;Extreme170&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;675d7f90-fb3a-4606-abbc-269bb703af31&quot;,&quot;4_cell&quot;}</relation_value>
+                  <relation_value>{V,&quot;3482e151-1281-40d6-b13f-32f1e0802005&quot;,&quot;X1&quot;}</relation_value>
+                </relation_row>
+              </relation_values>
+            </relation>
+            <relation name="AdditionalBattery" is_enabled="true" uuid="2e974781-89d5-4e48-b806-dac0b4892d6c" is_read_only="false">
+              <relation_columns>
+                <relation_column variable_uuid="d5d1a442-4a7d-4eb3-a7d3-6b6f80ffd277" variable_name="TechSpecs.Power.AdditionalBattery"/>
+                <relation_column variable_uuid="f8d5baa7-cb46-413b-8b69-20b1784cef56" variable_name="Model"/>
+              </relation_columns>
+              <relation_values>
+                <relation_row>
+                  <relation_value>{V,&quot;12141b6e-4a2d-4ef8-80dc-8268c934de5d&quot;,&quot;None&quot;}</relation_value>
+                  <relation_value>{V,&quot;6f193d56-4c18-4694-9e51-d117f7b37de2&quot;,&quot;Extreme170&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;12141b6e-4a2d-4ef8-80dc-8268c934de5d&quot;,&quot;None&quot;}</relation_value>
+                  <relation_value>{V,&quot;d067a399-9f71-4053-8947-afee3abcedbf&quot;,&quot;Extreme140&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;12141b6e-4a2d-4ef8-80dc-8268c934de5d&quot;,&quot;None&quot;}</relation_value>
+                  <relation_value>{V,&quot;bcf4ee1b-ecc6-4863-ab37-d4318abfbce6&quot;,&quot;N71&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;12141b6e-4a2d-4ef8-80dc-8268c934de5d&quot;,&quot;None&quot;}</relation_value>
+                  <relation_value>{V,&quot;f55f757d-44c8-4625-b21d-1796d056eab8&quot;,&quot;E17&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;12141b6e-4a2d-4ef8-80dc-8268c934de5d&quot;,&quot;None&quot;}</relation_value>
+                  <relation_value>{V,&quot;c55dc69c-89a5-4c5d-92fb-801bf25d9a1f&quot;,&quot;E15&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;12141b6e-4a2d-4ef8-80dc-8268c934de5d&quot;,&quot;None&quot;}</relation_value>
+                  <relation_value>{V,&quot;32db1595-6312-4b8b-9a87-e4bb2a002337&quot;,&quot;B13&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;12141b6e-4a2d-4ef8-80dc-8268c934de5d&quot;,&quot;None&quot;}</relation_value>
+                  <relation_value>{V,&quot;2bbc4c77-2caa-46ff-8459-d7c92d08e749&quot;,&quot;B12&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;12141b6e-4a2d-4ef8-80dc-8268c934de5d&quot;,&quot;None&quot;}</relation_value>
+                  <relation_value>{V,&quot;3482e151-1281-40d6-b13f-32f1e0802005&quot;,&quot;X1&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;e18cd54e-a810-410c-b9c2-01e35e5a2836&quot;,&quot;6_cell_spare&quot;}</relation_value>
+                  <relation_value>{V,&quot;2bbc4c77-2caa-46ff-8459-d7c92d08e749&quot;,&quot;B12&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;a8060d52-36c3-4107-973f-787e5ca1f5cc&quot;,&quot;8_cell&quot;}</relation_value>
+                  <relation_value>{V,&quot;bcf4ee1b-ecc6-4863-ab37-d4318abfbce6&quot;,&quot;N71&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;e18cd54e-a810-410c-b9c2-01e35e5a2836&quot;,&quot;6_cell_spare&quot;}</relation_value>
+                  <relation_value>{V,&quot;32db1595-6312-4b8b-9a87-e4bb2a002337&quot;,&quot;B13&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;62c70760-37c0-4725-a072-1eb531afbaa1&quot;,&quot;9_cell&quot;}</relation_value>
+                  <relation_value>{V,&quot;6f193d56-4c18-4694-9e51-d117f7b37de2&quot;,&quot;Extreme170&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;62c70760-37c0-4725-a072-1eb531afbaa1&quot;,&quot;9_cell&quot;}</relation_value>
+                  <relation_value>{V,&quot;d067a399-9f71-4053-8947-afee3abcedbf&quot;,&quot;Extreme140&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;675d7f90-fb3a-4606-abbc-269bb703af31&quot;,&quot;4_cell&quot;}</relation_value>
+                  <relation_value>{V,&quot;3482e151-1281-40d6-b13f-32f1e0802005&quot;,&quot;X1&quot;}</relation_value>
+                </relation_row>
+                <relation_row>
+                  <relation_value>{V,&quot;80fed87a-4811-45a5-b4bf-6e32dc992068&quot;,&quot;6_cell&quot;}</relation_value>
+                  <relation_value>{V,&quot;3482e151-1281-40d6-b13f-32f1e0802005&quot;,&quot;X1&quot;}</relation_value>
+                </relation_row>
+              </relation_values>
+            </relation>
+          </relations>
+          <functions/>
+          <language_translations>
+            <language_translation language="UK">Power</language_translation>
+            <language_translation language="DK">Strøm</language_translation>
+          </language_translations>
+          <variable name="PrimaryBattery" is_private="false" is_enabled="true" type="BatteryType" uuid="e7c0208b-24ce-4a8d-a847-d52f8b3f7665" is_read_only="false">
+            <property_values>
+              <property_value name="Required" property_uuid="4f9257f7-5c69-4b6f-ba00-489d5511d8c4">true</property_value>
+            </property_values>
+            <language_translations>
+              <language_translation language="UK">Primary battery</language_translation>
+              <language_translation language="DK">Primære batteri</language_translation>
+            </language_translations>
+          </variable>
+          <variable name="AdditionalBattery" is_private="false" is_enabled="true" type="BatteryType" uuid="d5d1a442-4a7d-4eb3-a7d3-6b6f80ffd277" is_read_only="false">
+            <property_values/>
+            <language_translations>
+              <language_translation language="UK">Additional battery</language_translation>
+              <language_translation language="DK">Ekstra batteri</language_translation>
+            </language_translations>
+          </variable>
+        </group>
+      </group>
+      <group name="Software" is_private="false" is_enabled="true" uuid="7f06e442-1890-43fd-b065-14dd2739c6dd" is_read_only="false">
+        <property_values/>
+        <rules/>
+        <relations>
+          <relation name="OperatingSystem" is_enabled="true" uuid="2b741b54-5e31-4732-be22-920c863d2696" is_read_only="false">
+            <relation_columns>
+              <relation_column variable_uuid="fadd7217-8418-4267-8485-6daa7f3be28f" variable_name="Software.OperatingSystem"/>
+              <relation_column variable_uuid="f8d5baa7-cb46-413b-8b69-20b1784cef56" variable_name="Model"/>
+            </relation_columns>
+            <relation_values>
+              <relation_row>
+                <relation_value>{V,&quot;0910d4a1-f7d9-4b68-b776-675ba1804274&quot;,&quot;XP_Home&quot;}</relation_value>
+                <relation_value>{V,&quot;2bbc4c77-2caa-46ff-8459-d7c92d08e749&quot;,&quot;B12&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;390a03c9-a444-46d7-8022-81ed6d8bc47b&quot;,&quot;XP_Professional&quot;}</relation_value>
+                <relation_value>{V,&quot;32db1595-6312-4b8b-9a87-e4bb2a002337&quot;,&quot;B13&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;0910d4a1-f7d9-4b68-b776-675ba1804274&quot;,&quot;XP_Home&quot;}</relation_value>
+                <relation_value>{V,&quot;32db1595-6312-4b8b-9a87-e4bb2a002337&quot;,&quot;B13&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;3592fb05-3ddb-4da7-9e8d-9caa68e5b7c6&quot;,&quot;XP_Media_Center&quot;}</relation_value>
+                <relation_value>{V,&quot;c55dc69c-89a5-4c5d-92fb-801bf25d9a1f&quot;,&quot;E15&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;390a03c9-a444-46d7-8022-81ed6d8bc47b&quot;,&quot;XP_Professional&quot;}</relation_value>
+                <relation_value>{V,&quot;c55dc69c-89a5-4c5d-92fb-801bf25d9a1f&quot;,&quot;E15&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;3592fb05-3ddb-4da7-9e8d-9caa68e5b7c6&quot;,&quot;XP_Media_Center&quot;}</relation_value>
+                <relation_value>{V,&quot;f55f757d-44c8-4625-b21d-1796d056eab8&quot;,&quot;E17&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;0910d4a1-f7d9-4b68-b776-675ba1804274&quot;,&quot;XP_Home&quot;}</relation_value>
+                <relation_value>{V,&quot;bcf4ee1b-ecc6-4863-ab37-d4318abfbce6&quot;,&quot;N71&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;390a03c9-a444-46d7-8022-81ed6d8bc47b&quot;,&quot;XP_Professional&quot;}</relation_value>
+                <relation_value>{V,&quot;bcf4ee1b-ecc6-4863-ab37-d4318abfbce6&quot;,&quot;N71&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;390a03c9-a444-46d7-8022-81ed6d8bc47b&quot;,&quot;XP_Professional&quot;}</relation_value>
+                <relation_value>{V,&quot;d067a399-9f71-4053-8947-afee3abcedbf&quot;,&quot;Extreme140&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;3592fb05-3ddb-4da7-9e8d-9caa68e5b7c6&quot;,&quot;XP_Media_Center&quot;}</relation_value>
+                <relation_value>{V,&quot;d067a399-9f71-4053-8947-afee3abcedbf&quot;,&quot;Extreme140&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;390a03c9-a444-46d7-8022-81ed6d8bc47b&quot;,&quot;XP_Professional&quot;}</relation_value>
+                <relation_value>{V,&quot;6f193d56-4c18-4694-9e51-d117f7b37de2&quot;,&quot;Extreme170&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;3592fb05-3ddb-4da7-9e8d-9caa68e5b7c6&quot;,&quot;XP_Media_Center&quot;}</relation_value>
+                <relation_value>{V,&quot;6f193d56-4c18-4694-9e51-d117f7b37de2&quot;,&quot;Extreme170&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;0910d4a1-f7d9-4b68-b776-675ba1804274&quot;,&quot;XP_Home&quot;}</relation_value>
+                <relation_value>{V,&quot;6f193d56-4c18-4694-9e51-d117f7b37de2&quot;,&quot;Extreme170&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;390a03c9-a444-46d7-8022-81ed6d8bc47b&quot;,&quot;XP_Professional&quot;}</relation_value>
+                <relation_value>{V,&quot;3482e151-1281-40d6-b13f-32f1e0802005&quot;,&quot;X1&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;0910d4a1-f7d9-4b68-b776-675ba1804274&quot;,&quot;XP_Home&quot;}</relation_value>
+                <relation_value>{V,&quot;3482e151-1281-40d6-b13f-32f1e0802005&quot;,&quot;X1&quot;}</relation_value>
+              </relation_row>
+            </relation_values>
+          </relation>
+          <relation name="RecoveryCD" is_enabled="true" uuid="e6366b1b-c57d-42d8-93a3-f148955df8a1" is_read_only="false">
+            <relation_columns>
+              <relation_column variable_uuid="fadd7217-8418-4267-8485-6daa7f3be28f" variable_name="Software.OperatingSystem"/>
+              <relation_column variable_uuid="1ece914f-0f92-472a-8f85-1e2ddc5e04c3" variable_name="Software.OSRecovery"/>
+            </relation_columns>
+            <relation_values>
+              <relation_row>
+                <relation_value>{V,&quot;0910d4a1-f7d9-4b68-b776-675ba1804274&quot;,&quot;XP_Home&quot;}</relation_value>
+                <relation_value>{V,&quot;6b29dbef-b004-495d-9a18-c4e94c946e7c&quot;,&quot;Symantec_Recovery&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;390a03c9-a444-46d7-8022-81ed6d8bc47b&quot;,&quot;XP_Professional&quot;}</relation_value>
+                <relation_value>{V,&quot;6b29dbef-b004-495d-9a18-c4e94c946e7c&quot;,&quot;Symantec_Recovery&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;3592fb05-3ddb-4da7-9e8d-9caa68e5b7c6&quot;,&quot;XP_Media_Center&quot;}</relation_value>
+                <relation_value>{V,&quot;6b29dbef-b004-495d-9a18-c4e94c946e7c&quot;,&quot;Symantec_Recovery&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;0910d4a1-f7d9-4b68-b776-675ba1804274&quot;,&quot;XP_Home&quot;}</relation_value>
+                <relation_value>{V,&quot;de4fd5b9-fd38-4d2e-889d-13e86f25871f&quot;,&quot;XP_Home_CD&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;390a03c9-a444-46d7-8022-81ed6d8bc47b&quot;,&quot;XP_Professional&quot;}</relation_value>
+                <relation_value>{V,&quot;6153d34d-1120-45fd-929e-a0f27e328a9b&quot;,&quot;XP_CD&quot;}</relation_value>
+              </relation_row>
+              <relation_row>
+                <relation_value>{V,&quot;3592fb05-3ddb-4da7-9e8d-9caa68e5b7c6&quot;,&quot;XP_Media_Center&quot;}</relation_value>
+                <relation_value>{V,&quot;6b582166-7c9f-4e1b-84d7-edf8885a1613&quot;,&quot;XP_Media_CD&quot;}</relation_value>
+              </relation_row>
+            </relation_values>
+          </relation>
+        </relations>
+        <functions/>
+        <language_translations>
+          <language_translation language="UK">Software</language_translation>
+          <language_translation language="DK">Programmer</language_translation>
+        </language_translations>
+        <variable name="OperatingSystem" is_private="false" is_enabled="true" type="OperatingSystemType" uuid="fadd7217-8418-4267-8485-6daa7f3be28f" is_read_only="false">
+          <property_values>
+            <property_value name="Required" property_uuid="4f9257f7-5c69-4b6f-ba00-489d5511d8c4">true</property_value>
+          </property_values>
+          <language_translations>
+            <language_translation language="UK">Operating System</language_translation>
+            <language_translation language="DK">Operativsystem</language_translation>
+          </language_translations>
+        </variable>
+        <variable name="OfficeProductivity" is_private="false" is_enabled="true" type="OfficeProductivitySoftwareType" uuid="03273f0b-3e17-4501-8ef4-2b40740460e3" is_read_only="false">
+          <property_values/>
+          <language_translations>
+            <language_translation language="UK">Office Productivety Software</language_translation>
+            <language_translation language="DK">Office produktivitetsprogram</language_translation>
+          </language_translations>
+        </variable>
+        <variable name="AntiVirus" is_private="false" is_enabled="true" type="AntiVirusType" uuid="c028a9c3-f737-453b-9f5b-eb2a6822611f" is_read_only="false">
+          <property_values/>
+          <language_translations>
+            <language_translation language="UK">Anti-Virus Software</language_translation>
+            <language_translation language="DK">Anti-virus program</language_translation>
+          </language_translations>
+        </variable>
+        <variable name="OSRecovery" is_private="false" is_enabled="true" type="OSRecoveryType" uuid="1ece914f-0f92-472a-8f85-1e2ddc5e04c3" is_read_only="false">
+          <property_values/>
+          <language_translations>
+            <language_translation language="UK">OS Recovery Tool</language_translation>
+            <language_translation language="DK">OS genskabningsværktøj</language_translation>
+          </language_translations>
+        </variable>
+      </group>
+      <group name="ServiceAndSupport" is_private="false" is_enabled="true" uuid="fda688c4-fb62-4542-89df-cd149b1cddcd" is_read_only="false">
+        <property_values/>
+        <rules>
+          <rule name="NoAccidentialDamageWhenPremium" uuid="5af01f85-4533-4ef7-ad38-8a93fe9faa34" is_enabled="true" is_read_only="false">
+            <ruleexpr>/* Since the Accidental Damage is included in the Premium Solution Package, &#xA; * it must be &quot;None&quot; when the user has selected the Primium Solution Package &#xA; */&#xA;&#xA;if {P,&quot;6e36f79d-c73f-4094-8856-e82ede3fd10f&quot;,HardwareWarranty} = {V,&quot;9b545211-b16f-4053-92f5-fcd30b8023dc&quot;,&quot;4yr_premium&quot;} then &#xA;   {P,&quot;3ee702dc-f2e6-412d-9de3-53c943460405&quot;,AccidentalDamageProtection} = {V,&quot;458f0319-f451-42a0-bfef-49c13b924f95&quot;,&quot;None&quot;}</ruleexpr>
+          </rule>
+        </rules>
+        <relations/>
+        <functions/>
+        <language_translations>
+          <language_translation language="UK">Service and Support</language_translation>
+          <language_translation language="DK">Service og Hjælp</language_translation>
+        </language_translations>
+        <variable name="HardwareWarranty" is_private="false" is_enabled="true" type="HardwareWarrantyType" uuid="6e36f79d-c73f-4094-8856-e82ede3fd10f" is_read_only="false">
+          <property_values/>
+          <language_translations>
+            <language_translation language="UK">Hardware Warranty</language_translation>
+            <language_translation language="DK">Hardware garanti</language_translation>
+          </language_translations>
+        </variable>
+        <variable name="AccidentalDamageProtection" is_private="false" is_enabled="true" type="AccidentalDamageProtType" uuid="3ee702dc-f2e6-412d-9de3-53c943460405" is_read_only="false">
+          <property_values/>
+          <language_translations>
+            <language_translation language="UK">Accidental Damage Protection</language_translation>
+            <language_translation language="DK">Ulykkesforsikring</language_translation>
+          </language_translations>
+        </variable>
+      </group>
+      <group name="SalesBOM" is_private="false" is_enabled="true" uuid="63280c38-f1b5-4d28-a23b-8003034461da" is_read_only="false">
+        <property_values>
+          <property_value name="Show" property_uuid="fcf321d8-b2f1-48e6-a2a1-1cf133f3e96a">false</property_value>
+        </property_values>
+        <rules/>
+        <relations/>
+        <functions>
+          <function name="Currency" type="String" is_enabled="true" uuid="b343c275-39e9-4ce3-9bec-7b8ce910b403" is_read_only="false">
+            <function_args/>
+            <function_body>return {V,-1,&quot;USD&quot;};</function_body>
+          </function>
+        </functions>
+        <language_translations/>
+        <group name="Hardware" is_private="false" is_enabled="true" uuid="ffe70e6b-f55e-4fb6-93c7-56255f167e37" is_read_only="false">
+          <property_values/>
+          <rules/>
+          <relations/>
+          <functions/>
+          <language_translations/>
+          <group name="Laptop" is_private="false" is_enabled="true" uuid="c6e8cf6d-7ecc-4944-8f0a-f6eda72a7be1" is_read_only="false">
+            <property_values/>
+            <rules/>
+            <relations/>
+            <functions>
+              <function name="Qty" type="Float" is_enabled="true" uuid="1a5b58ac-b9c5-4efd-99b9-72b01b91b48c" is_read_only="false">
+                <function_args/>
+                <function_body>return 1.0;</function_body>
+              </function>
+              <function name="ItemId" type="String" is_enabled="true" uuid="a1977374-77bb-4ba9-9406-61829f7f5773" is_read_only="false">
+                <function_args/>
+                <function_body>return {P,&quot;f8d5baa7-cb46-413b-8b69-20b1784cef56&quot;,[Model]};</function_body>
+              </function>
+              <function name="ItemText" type="String" is_enabled="true" uuid="2788297c-33c1-4b6e-9b8e-0817f0439c4f" is_read_only="false">
+                <function_args/>
+                <function_body>return &#xA;  {N,&quot;f8d5baa7-cb46-413b-8b69-20b1784cef56&quot;,[Model.PresentationName]} + {V,-1,&quot; &quot;} + {N,&quot;f8d5baa7-cb46-413b-8b69-20b1784cef56&quot;,[Model.value.PresentationName]} + {V,-1,&quot;, &quot;} + &#xA;  {N,&quot;f9ea7e3c-03be-4476-aaa4-8cf75c512816&quot;,[TechSpecs.Processor.Cpu.PresentationName]} + {V,-1,&quot; &quot;} + {N,&quot;f9ea7e3c-03be-4476-aaa4-8cf75c512816&quot;,[TechSpecs.Processor.Cpu.value.PresentationName]} + {V,-1,&quot;, &quot;} + &#xA;  {N,&quot;ec71625e-445c-4266-9568-b511607c0fbd&quot;,[TechSpecs.Memory.Memory.PresentationName]} + {V,-1,&quot; &quot;} + {N,&quot;ec71625e-445c-4266-9568-b511607c0fbd&quot;,[TechSpecs.Memory.Memory.value.PresentationName]} + {V,-1,&quot;, &quot;} + &#xA;  {N,&quot;e7c0208b-24ce-4a8d-a847-d52f8b3f7665&quot;,[TechSpecs.Power.PrimaryBattery.PresentationName]} + {V,-1,&quot; &quot;} + {N,&quot;e7c0208b-24ce-4a8d-a847-d52f8b3f7665&quot;,[TechSpecs.Power.PrimaryBattery.value.PresentationName]} + {V,-1,&quot;, &quot;} + &#xA;  {N,&quot;a3de82c1-618a-4c80-b878-ef08569d89ef&quot;,[TechSpecs.Display.Size.PresentationName]} + {V,-1,&quot; &quot;} + {N,&quot;a3de82c1-618a-4c80-b878-ef08569d89ef&quot;,[TechSpecs.Display.Size.value.PresentationName]} + {V,-1,&quot;, &quot;} + &#xA;  {N,&quot;8c41beaf-cdb1-462d-b45c-a3344c0afb7b&quot;,[TechSpecs.Display.Resolution.PresentationName]} + {V,-1,&quot; &quot;} + {N,&quot;8c41beaf-cdb1-462d-b45c-a3344c0afb7b&quot;,[TechSpecs.Display.Resolution.value.PresentationName]};</function_body>
+              </function>
+              <function name="ListPrice" type="Float" is_enabled="true" uuid="716a6a10-8b8c-43ce-a2b1-48a733b2f2c0" is_read_only="false">
+                <function_args/>
+                <function_body>return &#xA;  {O,&quot;7587d376-cabe-47c8-8e9b-7d3723fdb34d&quot;,&quot;f8d5baa7-cb46-413b-8b69-20b1784cef56&quot;,[Model.value.Properties.Price]} + &#xA;  {O,&quot;7587d376-cabe-47c8-8e9b-7d3723fdb34d&quot;,&quot;f9ea7e3c-03be-4476-aaa4-8cf75c512816&quot;,[TechSpecs.Processor.Cpu.value.Properties.Price]} + &#xA;  {O,&quot;7587d376-cabe-47c8-8e9b-7d3723fdb34d&quot;,&quot;ec71625e-445c-4266-9568-b511607c0fbd&quot;,[TechSpecs.Memory.Memory.value.Properties.Price]} + &#xA;  {O,&quot;7587d376-cabe-47c8-8e9b-7d3723fdb34d&quot;,&quot;4a463e29-5809-4013-bd53-80409a643e97&quot;,[TechSpecs.HardDrives.hd.value.Properties.Price]} + &#xA;  {O,&quot;7587d376-cabe-47c8-8e9b-7d3723fdb34d&quot;,&quot;a86d7dbd-47fb-4164-b9dd-c7057d8096d6&quot;,[TechSpecs.HardDrives.combo.value.Properties.Price]} + &#xA;  {O,&quot;7587d376-cabe-47c8-8e9b-7d3723fdb34d&quot;,&quot;e7c0208b-24ce-4a8d-a847-d52f8b3f7665&quot;,[TechSpecs.Power.PrimaryBattery.value.Properties.Price]};</function_body>
+              </function>
+            </functions>
+            <language_translations/>
+          </group>
+          <group name="ExternalHD" is_private="false" is_enabled="true" uuid="da2fb0ed-f531-4776-bb18-7837e910dbae" is_read_only="false">
+            <property_values/>
+            <rules/>
+            <relations/>
+            <functions>
+              <function name="Qty" type="Float" is_enabled="true" uuid="d548c979-128b-4032-82f2-a8297cf89441" is_read_only="false">
+                <function_args/>
+                <function_body>return {P,&quot;06158828-7b98-49c9-acd5-81182d96e093&quot;,[TechSpecs.HardDrives.external_2]} = {V,&quot;05fb209a-bac9-432b-ba95-d2ac137fc127&quot;,&quot;None&quot;} ? 0.0 : 1.0;</function_body>
+              </function>
+              <function name="ItemId" type="String" is_enabled="true" uuid="d388545e-af05-43a1-ad66-2aeada38192f" is_read_only="false">
+                <function_args/>
+                <function_body>return {P,&quot;06158828-7b98-49c9-acd5-81182d96e093&quot;,[TechSpecs.HardDrives.external_2]};</function_body>
+              </function>
+              <function name="ItemText" type="String" is_enabled="true" uuid="5469945f-0a45-40ae-a140-c65e55198107" is_read_only="false">
+                <function_args/>
+                <function_body>return {N,&quot;06158828-7b98-49c9-acd5-81182d96e093&quot;,[TechSpecs.HardDrives.external_2.value.PresentationName]};</function_body>
+              </function>
+              <function name="ListPrice" type="Float" is_enabled="true" uuid="af0d6713-7688-442f-ab85-21450cbfec8e" is_read_only="false">
+                <function_args/>
+                <function_body>return &#xA;  {O,&quot;7587d376-cabe-47c8-8e9b-7d3723fdb34d&quot;,&quot;06158828-7b98-49c9-acd5-81182d96e093&quot;,[TechSpecs.HardDrives.external_2.value.Properties.Price]};</function_body>
+              </function>
+            </functions>
+            <language_translations/>
+          </group>
+          <group name="ExtraBattery" is_private="false" is_enabled="true" uuid="67f4bb12-db7f-418b-91e5-0f6fa1b1e299" is_read_only="false">
+            <property_values/>
+            <rules/>
+            <relations/>
+            <functions>
+              <function name="Qty" type="Float" is_enabled="true" uuid="1fdfcb67-b37a-4e0c-834b-d7f6b9fbf5fd" is_read_only="false">
+                <function_args/>
+                <function_body>return {P,&quot;d5d1a442-4a7d-4eb3-a7d3-6b6f80ffd277&quot;,[TechSpecs.Power.AdditionalBattery]} = {V,&quot;12141b6e-4a2d-4ef8-80dc-8268c934de5d&quot;,&quot;None&quot;} ? 0.0 : 1.0;</function_body>
+              </function>
+              <function name="ItemId" type="String" is_enabled="true" uuid="18ac818c-7b31-429e-aeb2-245367f30ad0" is_read_only="false">
+                <function_args/>
+                <function_body>return {P,&quot;d5d1a442-4a7d-4eb3-a7d3-6b6f80ffd277&quot;,[TechSpecs.Power.AdditionalBattery]};</function_body>
+              </function>
+              <function name="ItemText" type="String" is_enabled="true" uuid="565a449f-da9e-4f1b-add2-d503118e4475" is_read_only="false">
+                <function_args/>
+                <function_body>return &#xA;  {N,&quot;d5d1a442-4a7d-4eb3-a7d3-6b6f80ffd277&quot;,[TechSpecs.Power.AdditionalBattery.value.PresentationName]};</function_body>
+              </function>
+              <function name="ListPrice" type="Float" is_enabled="true" uuid="e62a3ae8-526e-4c3a-9d13-b5372f90ce1f" is_read_only="false">
+                <function_args/>
+                <function_body>return &#xA;  {O,&quot;7587d376-cabe-47c8-8e9b-7d3723fdb34d&quot;,&quot;d5d1a442-4a7d-4eb3-a7d3-6b6f80ffd277&quot;,[TechSpecs.Power.AdditionalBattery.value.Properties.Price]};</function_body>
+              </function>
+            </functions>
+            <language_translations/>
+          </group>
+        </group>
+        <group name="Software" is_private="false" is_enabled="true" uuid="aa661812-6da9-4b63-b944-cf8d7a3194db" is_read_only="false">
+          <property_values/>
+          <rules/>
+          <relations/>
+          <functions/>
+          <language_translations/>
+          <group name="OperatingSystem" is_private="false" is_enabled="true" uuid="352216a8-f823-425a-8bf4-f17b00313587" is_read_only="false">
+            <property_values/>
+            <rules/>
+            <relations/>
+            <functions>
+              <function name="Qty" type="Float" is_enabled="true" uuid="7a6023aa-6293-4146-ae37-0a0d656cd554" is_read_only="false">
+                <function_args/>
+                <function_body>return 1.0;</function_body>
+              </function>
+              <function name="ItemId" type="String" is_enabled="true" uuid="3b4567b2-4d0e-47b8-897d-a3bf537ea03c" is_read_only="false">
+                <function_args/>
+                <function_body>return {P,&quot;fadd7217-8418-4267-8485-6daa7f3be28f&quot;,[Software.OperatingSystem]};</function_body>
+              </function>
+              <function name="ItemText" type="String" is_enabled="true" uuid="92e900fb-0f23-41a2-b900-e0f9c9d51008" is_read_only="false">
+                <function_args/>
+                <function_body>return &#xA;  {N,&quot;fadd7217-8418-4267-8485-6daa7f3be28f&quot;,[Software.OperatingSystem.value.PresentationName]};</function_body>
+              </function>
+              <function name="ListPrice" type="Float" is_enabled="true" uuid="1058b982-92e9-4a42-b805-76b41c018490" is_read_only="false">
+                <function_args/>
+                <function_body>return &#xA;  {O,&quot;7587d376-cabe-47c8-8e9b-7d3723fdb34d&quot;,&quot;fadd7217-8418-4267-8485-6daa7f3be28f&quot;,[Software.OperatingSystem.value.Properties.Price]};</function_body>
+              </function>
+            </functions>
+            <language_translations/>
+          </group>
+          <group name="OSRecovery" is_private="false" is_enabled="true" uuid="28611164-9eb7-44a6-af25-67f2ef9e67d8" is_read_only="false">
+            <property_values/>
+            <rules/>
+            <relations/>
+            <functions>
+              <function name="Qty" type="Float" is_enabled="true" uuid="0cfb0f72-f099-4388-963d-53daa86b4617" is_read_only="false">
+                <function_args/>
+                <function_body>return 1.0;</function_body>
+              </function>
+              <function name="ItemId" type="String" is_enabled="true" uuid="66abcd47-6400-44f6-9595-d84ab7aeb9db" is_read_only="false">
+                <function_args/>
+                <function_body>return {P,&quot;1ece914f-0f92-472a-8f85-1e2ddc5e04c3&quot;,[Software.OSRecovery]};</function_body>
+              </function>
+              <function name="ItemText" type="String" is_enabled="true" uuid="d37c077e-b4ca-4df3-9f2d-1cc47079cf29" is_read_only="false">
+                <function_args/>
+                <function_body>return &#xA;  {N,&quot;1ece914f-0f92-472a-8f85-1e2ddc5e04c3&quot;,[Software.OSRecovery.value.PresentationName]};</function_body>
+              </function>
+              <function name="ListPrice" type="Float" is_enabled="true" uuid="84095b6d-f069-4706-a3f8-9052c1e0c19c" is_read_only="false">
+                <function_args/>
+                <function_body>return &#xA;  {O,&quot;7587d376-cabe-47c8-8e9b-7d3723fdb34d&quot;,&quot;1ece914f-0f92-472a-8f85-1e2ddc5e04c3&quot;,[Software.OSRecovery.value.Properties.Price]};</function_body>
+              </function>
+            </functions>
+            <language_translations/>
+          </group>
+          <group name="Office" is_private="false" is_enabled="true" uuid="42be8f1c-3a97-45aa-9a23-04a8ed5085bb" is_read_only="false">
+            <property_values/>
+            <rules/>
+            <relations/>
+            <functions>
+              <function name="Qty" type="Float" is_enabled="true" uuid="0bbc6b96-a9bf-4fbb-b6af-73c0c2d6bb34" is_read_only="false">
+                <function_args/>
+                <function_body>return {P,&quot;03273f0b-3e17-4501-8ef4-2b40740460e3&quot;,[Software.OfficeProductivity]} = {V,&quot;32455d47-c655-4a18-9ba9-c1436c3114e6&quot;,&quot;None&quot;} ? 0.0 : 1.0;</function_body>
+              </function>
+              <function name="ItemId" type="String" is_enabled="true" uuid="7131e6f0-b3cf-4217-b085-b93eb7d09e62" is_read_only="false">
+                <function_args/>
+                <function_body>return {P,&quot;03273f0b-3e17-4501-8ef4-2b40740460e3&quot;,[Software.OfficeProductivity]};</function_body>
+              </function>
+              <function name="ItemText" type="String" is_enabled="true" uuid="5675f4de-d101-40ae-9dcf-4c7fdf325e49" is_read_only="false">
+                <function_args/>
+                <function_body>return &#xA;  {N,&quot;03273f0b-3e17-4501-8ef4-2b40740460e3&quot;,[Software.OfficeProductivity.value.PresentationName]};</function_body>
+              </function>
+              <function name="ListPrice" type="Float" is_enabled="true" uuid="1ac20876-1edf-419a-9f62-17516a717bb1" is_read_only="false">
+                <function_args/>
+                <function_body>return &#xA;  {O,&quot;7587d376-cabe-47c8-8e9b-7d3723fdb34d&quot;,&quot;03273f0b-3e17-4501-8ef4-2b40740460e3&quot;,[Software.OfficeProductivity.value.Properties.Price]};</function_body>
+              </function>
+            </functions>
+            <language_translations/>
+          </group>
+          <group name="AntiVirus" is_private="false" is_enabled="true" uuid="a290c563-c7f5-49d2-8ec5-fd634aabf6cd" is_read_only="false">
+            <property_values/>
+            <rules/>
+            <relations/>
+            <functions>
+              <function name="Qty" type="Float" is_enabled="true" uuid="d70ab49f-ae97-4ab6-a414-9d7f820a71e9" is_read_only="false">
+                <function_args/>
+                <function_body>return 1.0;</function_body>
+              </function>
+              <function name="ItemId" type="String" is_enabled="true" uuid="5e9ac89e-537a-4ec6-ab4c-d8afd731ba5e" is_read_only="false">
+                <function_args/>
+                <function_body>return {P,&quot;c028a9c3-f737-453b-9f5b-eb2a6822611f&quot;,[Software.AntiVirus]};</function_body>
+              </function>
+              <function name="ItemText" type="String" is_enabled="true" uuid="a5236f77-d83f-41ab-be2a-dfdb4a2c3693" is_read_only="false">
+                <function_args/>
+                <function_body>return &#xA;  {N,&quot;c028a9c3-f737-453b-9f5b-eb2a6822611f&quot;,[Software.AntiVirus.value.PresentationName]};</function_body>
+              </function>
+              <function name="ListPrice" type="Float" is_enabled="true" uuid="2492ef92-6c05-4904-8d9f-d8e5381eeb20" is_read_only="false">
+                <function_args/>
+                <function_body>return &#xA;  {O,&quot;7587d376-cabe-47c8-8e9b-7d3723fdb34d&quot;,&quot;c028a9c3-f737-453b-9f5b-eb2a6822611f&quot;,[Software.AntiVirus.value.Properties.Price]};</function_body>
+              </function>
+            </functions>
+            <language_translations/>
+          </group>
+        </group>
+        <group name="ServiceAndSupport" is_private="false" is_enabled="true" uuid="8df48926-632b-49bd-9f8f-c9d715af705d" is_read_only="false">
+          <property_values/>
+          <rules/>
+          <relations/>
+          <functions/>
+          <language_translations/>
+          <group name="HardwareWarranty" is_private="false" is_enabled="true" uuid="926a528d-9faf-4d54-a908-4826f454a6ee" is_read_only="false">
+            <property_values/>
+            <rules/>
+            <relations/>
+            <functions>
+              <function name="Qty" type="Float" is_enabled="true" uuid="e5e87c76-8d99-4031-bdd0-61524ad1aa4e" is_read_only="false">
+                <function_args/>
+                <function_body>return 1.0;</function_body>
+              </function>
+              <function name="ItemId" type="String" is_enabled="true" uuid="39325c53-3b2c-4083-9822-3553d78c4bd7" is_read_only="false">
+                <function_args/>
+                <function_body>return {P,&quot;6e36f79d-c73f-4094-8856-e82ede3fd10f&quot;,[ServiceAndSupport.HardwareWarranty]};</function_body>
+              </function>
+              <function name="ItemText" type="String" is_enabled="true" uuid="0b3286dd-5751-49ad-9fb3-3a414326639a" is_read_only="false">
+                <function_args/>
+                <function_body>return &#xA;  {N,&quot;6e36f79d-c73f-4094-8856-e82ede3fd10f&quot;,[ServiceAndSupport.HardwareWarranty.value.PresentationName]};</function_body>
+              </function>
+              <function name="ListPrice" type="Float" is_enabled="true" uuid="56499fa7-7ad4-4bc9-afe5-2b50dec78539" is_read_only="false">
+                <function_args/>
+                <function_body>return &#xA;  {O,&quot;7587d376-cabe-47c8-8e9b-7d3723fdb34d&quot;,&quot;6e36f79d-c73f-4094-8856-e82ede3fd10f&quot;,[ServiceAndSupport.HardwareWarranty.value.Properties.Price]};</function_body>
+              </function>
+            </functions>
+            <language_translations/>
+          </group>
+          <group name="AccidentialDamageProtection" is_private="false" is_enabled="true" uuid="6b67e438-1fa6-42c5-a4e4-bb3b30fc6c06" is_read_only="false">
+            <property_values/>
+            <rules/>
+            <relations/>
+            <functions>
+              <function name="Qty" type="Float" is_enabled="true" uuid="dde05390-20ee-4b1b-8d45-84d93e46f222" is_read_only="false">
+                <function_args/>
+                <function_body>return if {P,&quot;3ee702dc-f2e6-412d-9de3-53c943460405&quot;,[ServiceAndSupport.AccidentalDamageProtection]} = {V,&quot;458f0319-f451-42a0-bfef-49c13b924f95&quot;,&quot;None&quot;} then 0.0 else 1.0;</function_body>
+              </function>
+              <function name="ItemId" type="String" is_enabled="true" uuid="88529611-0309-438f-a307-9f8564512c5c" is_read_only="false">
+                <function_args/>
+                <function_body>return {P,&quot;3ee702dc-f2e6-412d-9de3-53c943460405&quot;,[ServiceAndSupport.AccidentalDamageProtection]};</function_body>
+              </function>
+              <function name="ItemText" type="String" is_enabled="true" uuid="158606be-c1b8-47d0-aa1c-af87deb614dc" is_read_only="false">
+                <function_args/>
+                <function_body>return &#xA;  {N,&quot;3ee702dc-f2e6-412d-9de3-53c943460405&quot;,[ServiceAndSupport.AccidentalDamageProtection.value.PresentationName]};</function_body>
+              </function>
+              <function name="ListPrice" type="Float" is_enabled="true" uuid="b306eb4f-5b0c-4b38-b4a2-e9b382e2e1ee" is_read_only="false">
+                <function_args/>
+                <function_body>return &#xA;  {O,&quot;7587d376-cabe-47c8-8e9b-7d3723fdb34d&quot;,&quot;3ee702dc-f2e6-412d-9de3-53c943460405&quot;,[ServiceAndSupport.AccidentalDamageProtection.value.Properties.Price]};</function_body>
+              </function>
+            </functions>
+            <language_translations/>
+          </group>
+        </group>
+        <group name="Shipping" is_private="false" is_enabled="true" uuid="7ab74b53-b85f-4723-a4f9-4fca63444de4" is_read_only="false">
+          <property_values/>
+          <rules/>
+          <relations/>
+          <functions>
+            <function name="Qty" type="Float" is_enabled="true" uuid="b7916ea0-7763-49bc-90b2-e53458213fe1" is_read_only="false">
+              <function_args/>
+              <function_body>return 1.0;</function_body>
+            </function>
+            <function name="ItemId" type="String" is_enabled="true" uuid="35e34762-70bb-4030-9477-f4053e0499fe" is_read_only="false">
+              <function_args/>
+              <function_body>return {V,-1,&quot;SHIP&quot;};</function_body>
+            </function>
+            <function name="ItemText" type="String" is_enabled="true" uuid="44f8a4d6-acde-422e-94ab-86310efedbcc" is_read_only="false">
+              <function_args/>
+              <function_body>return {V,-1,&quot;Shipping within the US&quot;};</function_body>
+            </function>
+            <function name="ListPrice" type="Float" is_enabled="true" uuid="ef526efa-c225-496c-9ade-d2fcb47e596f" is_read_only="false">
+              <function_args/>
+              <function_body>return 12.45;</function_body>
+            </function>
+          </functions>
+          <language_translations/>
+        </group>
+      </group>
+      <rules/>
+      <relations/>
+      <functions/>
+    </product_model_structure>
+    <variable_types>
+      <type name="ModelType" uuid="369fc9eb-eb6e-47bc-90d4-4077fccbdb80" is_read_only="false">
+        <type_values>
+          <type_value name="Extreme170" uuid="6f193d56-4c18-4694-9e51-d117f7b37de2">
+            <property_values>
+              <property_value name="Info" property_uuid="383b94f8-f160-467e-875c-5dd425ca2187">The Ultimate Notebook Experience &#xA;- Includes Award-winning, high performance notebooks&#xA;- Leading-edge technology for the ultimate multimedia or gaming experience&#xA;- Specially trained service &amp; support teams&#xA;- Windows Vista(tm) Capable</property_value>
+              <property_value name="Price" property_uuid="7587d376-cabe-47c8-8e9b-7d3723fdb34d">1700</property_value>
+            </property_values>
+            <language_translations>
+              <language_translation language="DK">Extreme 170</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="Extreme140" uuid="d067a399-9f71-4053-8947-afee3abcedbf">
+            <property_values>
+              <property_value name="Info" property_uuid="383b94f8-f160-467e-875c-5dd425ca2187">The Ultimate Notebook Experience &#xA;- Includes Award-winning, high performance notebooks&#xA;- Leading-edge technology for the ultimate multimedia or gaming experience&#xA;- Specially trained service &amp; support teams&#xA;- Windows Vista(tm) Capable</property_value>
+              <property_value name="Price" property_uuid="7587d376-cabe-47c8-8e9b-7d3723fdb34d">1450</property_value>
+            </property_values>
+            <language_translations/>
+          </type_value>
+          <type_value name="N71" uuid="bcf4ee1b-ecc6-4863-ab37-d4318abfbce6">
+            <property_values>
+              <property_value name="Info" property_uuid="383b94f8-f160-467e-875c-5dd425ca2187">Performance&#xA;- Feature-packed notebooks offering desktop-level performance.</property_value>
+              <property_value name="Price" property_uuid="7587d376-cabe-47c8-8e9b-7d3723fdb34d">1530</property_value>
+            </property_values>
+            <language_translations/>
+          </type_value>
+          <type_value name="E17" uuid="f55f757d-44c8-4625-b21d-1796d056eab8">
+            <property_values>
+              <property_value name="Info" property_uuid="383b94f8-f160-467e-875c-5dd425ca2187">Entertainment Powerhouse&#xA;- Up to Intel® Core (tmp) Duo Processor&#xA;- Genuine Windows® XP Home Edition</property_value>
+              <property_value name="Price" property_uuid="7587d376-cabe-47c8-8e9b-7d3723fdb34d">1320</property_value>
+            </property_values>
+            <language_translations/>
+          </type_value>
+          <type_value name="E15" uuid="c55dc69c-89a5-4c5d-92fb-801bf25d9a1f">
+            <property_values>
+              <property_value name="Info" property_uuid="383b94f8-f160-467e-875c-5dd425ca2187">Affordable Widescreen Entertainment&#xA;- Up to Intel®  Core(tm) Duo Processor&#xA;- Genuine Windows® XP Home</property_value>
+              <property_value name="Price" property_uuid="7587d376-cabe-47c8-8e9b-7d3723fdb34d">1130</property_value>
+            </property_values>
+            <language_translations/>
+          </type_value>
+          <type_value name="B13" uuid="32db1595-6312-4b8b-9a87-e4bb2a002337">
+            <property_values>
+              <property_value name="Info" property_uuid="383b94f8-f160-467e-875c-5dd425ca2187">Basic Entry-Level Notebook&#xA;- Outstanding entry-level value for day-to-day tasks</property_value>
+              <property_value name="Price" property_uuid="7587d376-cabe-47c8-8e9b-7d3723fdb34d">780</property_value>
+            </property_values>
+            <language_translations/>
+          </type_value>
+          <type_value name="B12" uuid="2bbc4c77-2caa-46ff-8459-d7c92d08e749">
+            <property_values>
+              <property_value name="Info" property_uuid="383b94f8-f160-467e-875c-5dd425ca2187">Basic Entry-Level Notebook&#xA;- Outstanding entry-level value for day-to-day tasks</property_value>
+              <property_value name="Price" property_uuid="7587d376-cabe-47c8-8e9b-7d3723fdb34d">720</property_value>
+            </property_values>
+            <language_translations/>
+          </type_value>
+          <type_value name="X1" uuid="3482e151-1281-40d6-b13f-32f1e0802005">
+            <property_values>
+              <property_value name="Info" property_uuid="383b94f8-f160-467e-875c-5dd425ca2187">Ultramobile&#xA;- Highly compact, lightweight systems designed specifically for those who travel extensively.</property_value>
+              <property_value name="Price" property_uuid="7587d376-cabe-47c8-8e9b-7d3723fdb34d">1150</property_value>
+            </property_values>
+            <language_translations/>
+          </type_value>
+        </type_values>
+      </type>
+      <type name="CPUType" uuid="24147d27-aff8-4a1d-813e-6de7f7bdc895" is_read_only="false">
+        <type_values>
+          <type_value name="M360" uuid="ba6c84fa-4c77-4df0-9103-9e9e927e6652">
+            <property_values>
+              <property_value name="Info" property_uuid="383b94f8-f160-467e-875c-5dd425ca2187">Intel® Celeron® M 360 (1.40 GHz/1MB Cache/400MHz FSB)</property_value>
+              <property_value name="Price" property_uuid="7587d376-cabe-47c8-8e9b-7d3723fdb34d">30</property_value>
+            </property_values>
+            <language_translations>
+              <language_translation language="UK">Intel® Celeron® M 360</language_translation>
+              <language_translation language="DK">Intel® Celeron® M 360</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="M370" uuid="732ecb52-0667-4467-b3aa-dab4811e1f65">
+            <property_values>
+              <property_value name="Info" property_uuid="383b94f8-f160-467e-875c-5dd425ca2187">Intel® Celeron® M Processor 370 (1.50 GHz/1MB Cache/400MHz FSB)</property_value>
+              <property_value name="Price" property_uuid="7587d376-cabe-47c8-8e9b-7d3723fdb34d">40</property_value>
+            </property_values>
+            <language_translations>
+              <language_translation language="UK">Intel® Celeron® M Processor 370</language_translation>
+              <language_translation language="DK">Intel® Celeron® M Processor 370</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="M733" uuid="1f11cbe8-0a0c-4039-984a-b8763e937857">
+            <property_values>
+              <property_value name="Info" property_uuid="383b94f8-f160-467e-875c-5dd425ca2187">Intel® Pentium® M Processor 733 (1.10GHz ULV)</property_value>
+              <property_value name="Price" property_uuid="7587d376-cabe-47c8-8e9b-7d3723fdb34d">60</property_value>
+            </property_values>
+            <language_translations>
+              <language_translation language="UK">Intel® Celeron® M Processor 370</language_translation>
+              <language_translation language="DK">Intel® Celeron® M Processor 370</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="M735" uuid="a93638e0-dd4e-4076-92da-33c610b9a8c3">
+            <property_values>
+              <property_value name="Info" property_uuid="383b94f8-f160-467e-875c-5dd425ca2187">Intel® Pentium® M Processor 735 (1.70GHz/2MB Cache/400MHz FSB)</property_value>
+              <property_value name="Price" property_uuid="7587d376-cabe-47c8-8e9b-7d3723fdb34d">64</property_value>
+            </property_values>
+            <language_translations>
+              <language_translation language="UK">Intel® Pentium® M Processor 735</language_translation>
+              <language_translation language="DK">Intel® Pentium® M Processor 735</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="M740" uuid="db5ea8c3-a91c-481d-b456-d92e454218d1">
+            <property_values>
+              <property_value name="Info" property_uuid="383b94f8-f160-467e-875c-5dd425ca2187">Intel® Pentium® M Processor 740 (1.73GHz/2MB Cache/533MHz FSB)</property_value>
+              <property_value name="Price" property_uuid="7587d376-cabe-47c8-8e9b-7d3723fdb34d">70</property_value>
+            </property_values>
+            <language_translations>
+              <language_translation language="UK">Intel® Pentium® M Processor 740</language_translation>
+              <language_translation language="DK">Intel® Pentium® M Processor 740</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="M750" uuid="4b50c130-4c40-4795-a5d8-46bd537f58e4">
+            <property_values>
+              <property_value name="Info" property_uuid="383b94f8-f160-467e-875c-5dd425ca2187">Intel® Pentium® M Processor 750 (1.86GHz/2MB Cache/533MHz FSB)</property_value>
+              <property_value name="Price" property_uuid="7587d376-cabe-47c8-8e9b-7d3723fdb34d">74</property_value>
+            </property_values>
+            <language_translations>
+              <language_translation language="UK">Intel® Pentium® M Processor 750</language_translation>
+              <language_translation language="DK">Intel® Pentium® M Processor 750</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="M755" uuid="0fa2134a-4724-4fcc-bda4-b6e25a312eb3">
+            <property_values>
+              <property_value name="Info" property_uuid="383b94f8-f160-467e-875c-5dd425ca2187">Intel® Pentium® M Processor 755 (2.0GHz/2MB Cache/400MHz FSB)</property_value>
+              <property_value name="Price" property_uuid="7587d376-cabe-47c8-8e9b-7d3723fdb34d">76</property_value>
+            </property_values>
+            <language_translations>
+              <language_translation language="UK">Intel® Pentium® M Processor 755</language_translation>
+              <language_translation language="DK">Intel® Pentium® M Processor 755</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="M760" uuid="587bd93d-e99a-40a4-900a-dea03daa41ca">
+            <property_values>
+              <property_value name="Info" property_uuid="383b94f8-f160-467e-875c-5dd425ca2187">Intel® Pentium® M Processor 760 (2GHz/2MB Cache/533MHz FSB)</property_value>
+              <property_value name="Price" property_uuid="7587d376-cabe-47c8-8e9b-7d3723fdb34d">82</property_value>
+            </property_values>
+            <language_translations>
+              <language_translation language="UK">Intel® Pentium® M Processor 760</language_translation>
+              <language_translation language="DK">Intel® Pentium® M Processor 760</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="M770" uuid="1c5dc0a0-3ef0-48a6-9541-1fbb698faa92">
+            <property_values>
+              <property_value name="Info" property_uuid="383b94f8-f160-467e-875c-5dd425ca2187">Intel® Pentium® M Processor 770 (2.13GHz/2MB Cache/533MHz FSB)</property_value>
+              <property_value name="Price" property_uuid="7587d376-cabe-47c8-8e9b-7d3723fdb34d">89</property_value>
+            </property_values>
+            <language_translations>
+              <language_translation language="UK">Intel® Pentium® M Processor 770</language_translation>
+              <language_translation language="DK">Intel® Pentium® M Processor 770</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="T1300" uuid="7201a451-91ef-4de1-b98a-7261cf05c538">
+            <property_values>
+              <property_value name="Info" property_uuid="383b94f8-f160-467e-875c-5dd425ca2187"></property_value>
+              <property_value name="Price" property_uuid="7587d376-cabe-47c8-8e9b-7d3723fdb34d">112</property_value>
+            </property_values>
+            <language_translations>
+              <language_translation language="UK">Intel® Core Solo processor T1300</language_translation>
+              <language_translation language="DK">Intel® Core Solo processor T1300</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="T2500" uuid="30025c23-4789-4d93-83f0-1c6bb36db3c9">
+            <property_values>
+              <property_value name="Info" property_uuid="383b94f8-f160-467e-875c-5dd425ca2187"></property_value>
+              <property_value name="Price" property_uuid="7587d376-cabe-47c8-8e9b-7d3723fdb34d">213</property_value>
+            </property_values>
+            <language_translations>
+              <language_translation language="UK">Intel® Core Duo processor T2500</language_translation>
+              <language_translation language="DK">Intel® Core Duo processor T2500</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="T2400" uuid="41a9d8ae-d02d-47bb-ae9a-77ddad3c6eda">
+            <property_values>
+              <property_value name="Info" property_uuid="383b94f8-f160-467e-875c-5dd425ca2187"></property_value>
+              <property_value name="Price" property_uuid="7587d376-cabe-47c8-8e9b-7d3723fdb34d">198</property_value>
+            </property_values>
+            <language_translations>
+              <language_translation language="UK">Intel® Core Duo processor T2400</language_translation>
+              <language_translation language="DK">Intel® Core Duo processor T2400</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="T2300" uuid="30e16b3d-ef99-43ce-bdae-97d25267e57b">
+            <property_values>
+              <property_value name="Info" property_uuid="383b94f8-f160-467e-875c-5dd425ca2187"></property_value>
+              <property_value name="Price" property_uuid="7587d376-cabe-47c8-8e9b-7d3723fdb34d">206</property_value>
+            </property_values>
+            <language_translations>
+              <language_translation language="UK">Intel® Core Duo processor T2300</language_translation>
+              <language_translation language="DK">Intel® Core Duo processor T2300</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="M780" uuid="da18dc74-c8b5-45dd-a390-ad30655eea9e">
+            <property_values>
+              <property_value name="Info" property_uuid="383b94f8-f160-467e-875c-5dd425ca2187">Intel® Pentium® M Processor 780 (2.26 GHz/2MB Cache/533MHz FSB)</property_value>
+              <property_value name="Price" property_uuid="7587d376-cabe-47c8-8e9b-7d3723fdb34d">94</property_value>
+            </property_values>
+            <language_translations>
+              <language_translation language="UK">Intel® Pentium® M Processor 780</language_translation>
+              <language_translation language="DK">Intel® Pentium® M Processor 780</language_translation>
+            </language_translations>
+          </type_value>
+        </type_values>
+      </type>
+      <type name="OperatingSystemType" uuid="ce52cfae-56c0-486e-ad79-fcf3afdd8400" is_read_only="false">
+        <type_values>
+          <type_value name="XP_Home" uuid="0910d4a1-f7d9-4b68-b776-675ba1804274">
+            <property_values>
+              <property_value name="Price" property_uuid="7587d376-cabe-47c8-8e9b-7d3723fdb34d">199</property_value>
+            </property_values>
+            <language_translations>
+              <language_translation language="UK">Genuine Windows® XP Home Edition</language_translation>
+              <language_translation language="DK">Genuine Windows® XP Home Edition</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="XP_Professional" uuid="390a03c9-a444-46d7-8022-81ed6d8bc47b">
+            <property_values>
+              <property_value name="Price" property_uuid="7587d376-cabe-47c8-8e9b-7d3723fdb34d">299</property_value>
+            </property_values>
+            <language_translations>
+              <language_translation language="UK">Genuine Windows® XP Professional</language_translation>
+              <language_translation language="DK">Genuine Windows® XP Professional</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="XP_Media_Center" uuid="3592fb05-3ddb-4da7-9e8d-9caa68e5b7c6">
+            <property_values>
+              <property_value name="Price" property_uuid="7587d376-cabe-47c8-8e9b-7d3723fdb34d">349</property_value>
+            </property_values>
+            <language_translations>
+              <language_translation language="UK">Genuine Windows® XP Media Center Edition 2005</language_translation>
+              <language_translation language="DK">Genuine Windows® XP Media Center Edition 2005</language_translation>
+            </language_translations>
+          </type_value>
+        </type_values>
+      </type>
+      <type name="OSRecoveryType" uuid="589dd3c6-aeee-4cbf-84fe-adbcd6adc958" is_read_only="false">
+        <type_values>
+          <type_value name="Symantec_Recovery" uuid="6b29dbef-b004-495d-9a18-c4e94c946e7c">
+            <property_values>
+              <property_value name="Price" property_uuid="7587d376-cabe-47c8-8e9b-7d3723fdb34d">49</property_value>
+            </property_values>
+            <language_translations>
+              <language_translation language="UK">PC Restore recovery system by Symantec</language_translation>
+              <language_translation language="DK">PC Restore recovery system by Symantec</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="XP_Home_CD" uuid="de4fd5b9-fd38-4d2e-889d-13e86f25871f">
+            <property_values>
+              <property_value name="Price" property_uuid="7587d376-cabe-47c8-8e9b-7d3723fdb34d">20</property_value>
+            </property_values>
+            <language_translations>
+              <language_translation language="UK">Genuine Windows® XP Home Edition re-installation CD</language_translation>
+              <language_translation language="DK">Genuine Windows® XP Home Edition re-installation CD</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="XP_CD" uuid="6153d34d-1120-45fd-929e-a0f27e328a9b">
+            <property_values>
+              <property_value name="Price" property_uuid="7587d376-cabe-47c8-8e9b-7d3723fdb34d">20</property_value>
+            </property_values>
+            <language_translations>
+              <language_translation language="UK">Genuine Windows® XP Professional re-installation CD</language_translation>
+              <language_translation language="DK">Genuine Windows® XP Professional re-installation CD</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="XP_Media_CD" uuid="6b582166-7c9f-4e1b-84d7-edf8885a1613">
+            <property_values>
+              <property_value name="Price" property_uuid="7587d376-cabe-47c8-8e9b-7d3723fdb34d">20</property_value>
+            </property_values>
+            <language_translations>
+              <language_translation language="UK">Genuine Windows® XP Media Center 2005 Edition re-installation CD</language_translation>
+              <language_translation language="DK">Genuine Windows® XP Media Center 2005 Edition re-installation CD</language_translation>
+            </language_translations>
+          </type_value>
+        </type_values>
+      </type>
+      <type name="MemoryType" uuid="389f6a33-56ef-4931-aaed-3c302024cb1c" is_read_only="false">
+        <type_values>
+          <type_value name="512MB DDR2 SDRAM at 533MHz, 1 DIMM" uuid="5b96599c-ae30-4c66-ad08-6e75db9e9591">
+            <property_values>
+              <property_value name="Price" property_uuid="7587d376-cabe-47c8-8e9b-7d3723fdb34d">189</property_value>
+            </property_values>
+            <language_translations/>
+          </type_value>
+          <type_value name="512MB DDR2 SDRAM at 533MHz, 2 DIMM" uuid="c62b0874-b466-48b2-8b48-68bab84fed82">
+            <property_values>
+              <property_value name="Price" property_uuid="7587d376-cabe-47c8-8e9b-7d3723fdb34d">149</property_value>
+            </property_values>
+            <language_translations/>
+          </type_value>
+          <type_value name="512MB DDR2 SDRAM at 667MHz, 2 DIMM" uuid="5aeaf19d-7556-4deb-ad62-f66534215446">
+            <property_values>
+              <property_value name="Price" property_uuid="7587d376-cabe-47c8-8e9b-7d3723fdb34d">164</property_value>
+            </property_values>
+            <language_translations/>
+          </type_value>
+          <type_value name="1GB DDR2 SDRAM at 533MHz, 2 DIMM" uuid="df8f8f32-7add-4bf7-873b-4ef4c6d57dc6">
+            <property_values>
+              <property_value name="Price" property_uuid="7587d376-cabe-47c8-8e9b-7d3723fdb34d">299</property_value>
+            </property_values>
+            <language_translations/>
+          </type_value>
+          <type_value name="1GB DDR SDRAM at 533MHz, 1 DIMM" uuid="870208c8-9f14-4844-b13c-b8932ecd8694">
+            <property_values>
+              <property_value name="Price" property_uuid="7587d376-cabe-47c8-8e9b-7d3723fdb34d">349</property_value>
+            </property_values>
+            <language_translations/>
+          </type_value>
+          <type_value name="1GB DDR2 SDRAM at 667MHz, 2 DIMM" uuid="184c5464-8e49-4466-bd2a-9ab4a706a08f">
+            <property_values>
+              <property_value name="Price" property_uuid="7587d376-cabe-47c8-8e9b-7d3723fdb34d">329</property_value>
+            </property_values>
+            <language_translations/>
+          </type_value>
+          <type_value name="2GB DDR2 SDRAM at 533MHz, 2 DIMM" uuid="3c96ef13-9ff3-4d9d-8a28-4e2e93472c9f">
+            <property_values>
+              <property_value name="Price" property_uuid="7587d376-cabe-47c8-8e9b-7d3723fdb34d">599</property_value>
+            </property_values>
+            <language_translations/>
+          </type_value>
+          <type_value name="2GB DDR2 SDRAM at 667MHz, 2 DIMM" uuid="dcccb61f-1b44-400e-bf4d-c0cf926a55c4">
+            <property_values>
+              <property_value name="Price" property_uuid="7587d376-cabe-47c8-8e9b-7d3723fdb34d">658</property_value>
+            </property_values>
+            <language_translations/>
+          </type_value>
+          <type_value name="768MB DDR2 533MHz SDRAM, (256MB Integrated) 2 DIMM" uuid="725c78bc-9804-44ab-a940-9dafee8338d2">
+            <property_values>
+              <property_value name="Price" property_uuid="7587d376-cabe-47c8-8e9b-7d3723fdb34d">199</property_value>
+            </property_values>
+            <language_translations/>
+          </type_value>
+          <type_value name="1.28GB DDR2 533MHz SDRAM, (256MB Integrated) 2 DIMM" uuid="6d3b5ecd-8f47-4410-8927-13ef9d3bd6af">
+            <property_values>
+              <property_value name="Price" property_uuid="7587d376-cabe-47c8-8e9b-7d3723fdb34d">279</property_value>
+            </property_values>
+            <language_translations/>
+          </type_value>
+        </type_values>
+      </type>
+      <type name="HardDriveType" uuid="68ab536d-b7ac-42a9-a007-5752b1e50769" is_read_only="false">
+        <type_values>
+          <type_value name="40GB_5400" uuid="92fe93c9-7b01-4f02-b498-b2a8f0144688">
+            <property_values>
+              <property_value name="Price" property_uuid="7587d376-cabe-47c8-8e9b-7d3723fdb34d">59</property_value>
+            </property_values>
+            <language_translations>
+              <language_translation language="UK">40GB 5400rpm</language_translation>
+              <language_translation language="DK">40GB 5400rpm</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="60GB_5400" uuid="40b235b9-364c-410b-a030-c500ff7f1b3b">
+            <property_values>
+              <property_value name="Price" property_uuid="7587d376-cabe-47c8-8e9b-7d3723fdb34d">69</property_value>
+            </property_values>
+            <language_translations>
+              <language_translation language="UK">60GB 5400rpm</language_translation>
+              <language_translation language="DK">60GB 5400rpm</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="60GB_7200" uuid="5e711fa4-8d86-4263-874a-839071516f06">
+            <property_values>
+              <property_value name="Price" property_uuid="7587d376-cabe-47c8-8e9b-7d3723fdb34d">79</property_value>
+            </property_values>
+            <language_translations>
+              <language_translation language="UK">60GB 7200rpm </language_translation>
+              <language_translation language="DK">60GB 7200rpm</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="80GB_4200" uuid="03ebf48a-1744-4155-9ed8-2da296d02572">
+            <property_values>
+              <property_value name="Price" property_uuid="7587d376-cabe-47c8-8e9b-7d3723fdb34d">72</property_value>
+            </property_values>
+            <language_translations>
+              <language_translation language="UK">80GB 4200rpm</language_translation>
+              <language_translation language="DK">80GB 4200rpm</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="80GB_5400" uuid="fc11e8d1-0507-42e6-bb3d-cf532511dfe4">
+            <property_values>
+              <property_value name="Price" property_uuid="7587d376-cabe-47c8-8e9b-7d3723fdb34d">89</property_value>
+            </property_values>
+            <language_translations>
+              <language_translation language="UK">80GB 5400rpm</language_translation>
+              <language_translation language="DK">80GB 5400rpm</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="80GB_7200" uuid="59cb1768-16bd-4a9b-b665-7e77751da248">
+            <property_values>
+              <property_value name="Price" property_uuid="7587d376-cabe-47c8-8e9b-7d3723fdb34d">105</property_value>
+            </property_values>
+            <language_translations>
+              <language_translation language="UK">80GB 7200rpm</language_translation>
+              <language_translation language="DK">80GB 7200rpm</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="100GB_5400" uuid="e82eaec7-ae19-494a-a23e-ddc90d32327e">
+            <property_values>
+              <property_value name="Price" property_uuid="7587d376-cabe-47c8-8e9b-7d3723fdb34d">119</property_value>
+            </property_values>
+            <language_translations>
+              <language_translation language="UK">100GB 5400rpm</language_translation>
+              <language_translation language="DK">100GB 5400rpm</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="100GB_7200" uuid="5ff4129e-f80f-4c02-a13d-fabf4008733a">
+            <property_values>
+              <property_value name="Price" property_uuid="7587d376-cabe-47c8-8e9b-7d3723fdb34d">189</property_value>
+            </property_values>
+            <language_translations>
+              <language_translation language="UK">100GB 7200rpm</language_translation>
+              <language_translation language="DK">100GB 7200rpm</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="120GB_5400" uuid="352213f2-13eb-4216-ac99-255b810cf835">
+            <property_values>
+              <property_value name="Price" property_uuid="7587d376-cabe-47c8-8e9b-7d3723fdb34d">179</property_value>
+            </property_values>
+            <language_translations>
+              <language_translation language="UK">120GB 5400rpm</language_translation>
+              <language_translation language="DK">120GB 5400rpm</language_translation>
+            </language_translations>
+          </type_value>
+        </type_values>
+      </type>
+      <type name="ComboDriveType" uuid="c983caa6-87fc-4070-9e1b-f046c5cb4d24" is_read_only="false">
+        <type_values>
+          <type_value name="24X_CD_DVD" uuid="8f3a3a14-fc9b-4fb9-a197-17a8a94dc54b">
+            <property_values/>
+            <language_translations>
+              <language_translation language="UK">24X CD Burner/DVD Combo Drive</language_translation>
+              <language_translation language="DK">24X CD Burner/DVD Combo Drive</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="8X_DVD_w" uuid="1e0cabc2-4af2-4185-8267-5d5a433ffe5b">
+            <property_values>
+              <property_value name="Price" property_uuid="7587d376-cabe-47c8-8e9b-7d3723fdb34d">29</property_value>
+            </property_values>
+            <language_translations>
+              <language_translation language="UK">8x CD/DVD burner (DVD+/-RW) with double-layer DVD+R write capability</language_translation>
+              <language_translation language="DK">8x CD/DVD burner (DVD+/-RW) with double-layer DVD+R write capability</language_translation>
+            </language_translations>
+          </type_value>
+        </type_values>
+      </type>
+      <type name="BatteryType" uuid="cd69df56-8210-49d8-a00f-cdf0db17f4ae" is_read_only="false">
+        <type_values>
+          <type_value name="None" uuid="12141b6e-4a2d-4ef8-80dc-8268c934de5d">
+            <property_values>
+              <property_value name="Weight" property_uuid="61e184d7-6bb6-49f1-a088-b1d3953fb65b">0</property_value>
+            </property_values>
+            <language_translations>
+              <language_translation language="UK">No battery</language_translation>
+              <language_translation language="DK">Intet batteri</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="4_cell" uuid="675d7f90-fb3a-4606-abbc-269bb703af31">
+            <property_values>
+              <property_value name="Info" property_uuid="383b94f8-f160-467e-875c-5dd425ca2187">4-cell Lithium Ion Primary Battery (29WHr)</property_value>
+              <property_value name="Price" property_uuid="7587d376-cabe-47c8-8e9b-7d3723fdb34d">20</property_value>
+              <property_value name="Weight" property_uuid="61e184d7-6bb6-49f1-a088-b1d3953fb65b">0.24</property_value>
+            </property_values>
+            <language_translations>
+              <language_translation language="UK">4-cell  (29WHr)</language_translation>
+              <language_translation language="DK">4-cell  (29WHr)</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="6_cell_spare" uuid="e18cd54e-a810-410c-b9c2-01e35e5a2836">
+            <property_values>
+              <property_value name="Info" property_uuid="383b94f8-f160-467e-875c-5dd425ca2187">6-cell Lithium Ion Spare Battery (56 WHr)</property_value>
+              <property_value name="Price" property_uuid="7587d376-cabe-47c8-8e9b-7d3723fdb34d">40</property_value>
+              <property_value name="Weight" property_uuid="61e184d7-6bb6-49f1-a088-b1d3953fb65b">0.35</property_value>
+            </property_values>
+            <language_translations>
+              <language_translation language="UK">6-cell  (56 WHr)</language_translation>
+              <language_translation language="DK">6-cell  (56 WHr)</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="6_cell" uuid="80fed87a-4811-45a5-b4bf-6e32dc992068">
+            <property_values>
+              <property_value name="Info" property_uuid="383b94f8-f160-467e-875c-5dd425ca2187">6-cell Lithium Ion Primary Battery (56 WHr)</property_value>
+              <property_value name="Price" property_uuid="7587d376-cabe-47c8-8e9b-7d3723fdb34d">40</property_value>
+            </property_values>
+            <language_translations>
+              <language_translation language="UK">6-cell (56 WHr)</language_translation>
+              <language_translation language="DK">6-cell (56 WHr)</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="8_cell" uuid="a8060d52-36c3-4107-973f-787e5ca1f5cc">
+            <property_values>
+              <property_value name="Info" property_uuid="383b94f8-f160-467e-875c-5dd425ca2187">8-cell Lithium Ion Primary Battery (65 WHr)</property_value>
+              <property_value name="Price" property_uuid="7587d376-cabe-47c8-8e9b-7d3723fdb34d">60</property_value>
+            </property_values>
+            <language_translations>
+              <language_translation language="UK">8-cell (65 WHr)</language_translation>
+              <language_translation language="DK">8-cell (65 WHr)</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="9_cell" uuid="62c70760-37c0-4725-a072-1eb531afbaa1">
+            <property_values>
+              <property_value name="Info" property_uuid="383b94f8-f160-467e-875c-5dd425ca2187">9-cell Lithium Ion Primary Battery (80 WHr)</property_value>
+              <property_value name="Price" property_uuid="7587d376-cabe-47c8-8e9b-7d3723fdb34d">80</property_value>
+            </property_values>
+            <language_translations>
+              <language_translation language="UK">9-cell (80 WHr)</language_translation>
+              <language_translation language="DK">9-cell (80 WHr)</language_translation>
+            </language_translations>
+          </type_value>
+        </type_values>
+      </type>
+      <type name="ExternalHardDriveType" uuid="7d34a7a3-f957-45a7-870e-0486cd097d4a" is_read_only="false">
+        <type_values>
+          <type_value name="None" uuid="05fb209a-bac9-432b-ba95-d2ac137fc127">
+            <property_values/>
+            <language_translations>
+              <language_translation language="UK">None</language_translation>
+              <language_translation language="DK">Intet</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="WD_80GB" uuid="bfab73a0-6855-4426-99a7-636ea8094719">
+            <property_values>
+              <property_value name="Info" property_uuid="383b94f8-f160-467e-875c-5dd425ca2187">Western Digital 80GB Dual-Option USB 2.0 Hard Drive w/Backup Software</property_value>
+              <property_value name="Price" property_uuid="7587d376-cabe-47c8-8e9b-7d3723fdb34d">119</property_value>
+            </property_values>
+            <language_translations>
+              <language_translation language="UK">Western Digital 80GB</language_translation>
+              <language_translation language="DK">Western Digital 80GB Dual-Option USB 2.0 Hard Drive w/Backup Software</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="WD_160GB" uuid="93f65a32-21fe-4dc5-8db6-4d58ad5cec38">
+            <property_values>
+              <property_value name="Info" property_uuid="383b94f8-f160-467e-875c-5dd425ca2187">Western Digital 160GB Dual-Option USB 2.0 Hard Drive w/Backup Software</property_value>
+              <property_value name="Price" property_uuid="7587d376-cabe-47c8-8e9b-7d3723fdb34d">149</property_value>
+            </property_values>
+            <language_translations>
+              <language_translation language="UK">Western Digital 160GB</language_translation>
+              <language_translation language="DK">Western Digital 160GB</language_translation>
+            </language_translations>
+          </type_value>
+        </type_values>
+      </type>
+      <type name="OfficeProductivitySoftwareType" uuid="ebfb068f-d5f8-4ee7-89f7-9c1c1c2d504c" is_read_only="false">
+        <type_values>
+          <type_value name="None" uuid="32455d47-c655-4a18-9ba9-c1436c3114e6">
+            <property_values/>
+            <language_translations>
+              <language_translation language="UK">None</language_translation>
+              <language_translation language="DK">Nej</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="Microsoft Office Basic" uuid="83558d5f-1919-48bf-868a-dce626cb2f2b">
+            <property_values>
+              <property_value name="Info" property_uuid="383b94f8-f160-467e-875c-5dd425ca2187">Microsoft Office Basic - Includes Word, Excel, and Outlook email</property_value>
+              <property_value name="Price" property_uuid="7587d376-cabe-47c8-8e9b-7d3723fdb34d">199</property_value>
+            </property_values>
+            <language_translations>
+              <language_translation language="UK">Microsoft Office Basic</language_translation>
+              <language_translation language="DK">Microsoft Office Basic</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="Microsoft Office Student" uuid="3470f30c-bf6f-4cd0-89d4-a78773707f55">
+            <property_values>
+              <property_value name="Info" property_uuid="383b94f8-f160-467e-875c-5dd425ca2187">Microsoft Office Student and Teacher plus Money and Encarta Deluxe versions</property_value>
+              <property_value name="Price" property_uuid="7587d376-cabe-47c8-8e9b-7d3723fdb34d">99</property_value>
+            </property_values>
+            <language_translations>
+              <language_translation language="UK">Microsoft Office Student</language_translation>
+              <language_translation language="DK">Microsoft Office Student</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="Microsoft Office Small Business" uuid="b2da2f47-ffb4-4054-962f-6da6af913e57">
+            <property_values>
+              <property_value name="Info" property_uuid="383b94f8-f160-467e-875c-5dd425ca2187">Microsoft Office Small Business Ed.- Basic plus PowerPoint and Publisher</property_value>
+              <property_value name="Price" property_uuid="7587d376-cabe-47c8-8e9b-7d3723fdb34d">299</property_value>
+            </property_values>
+            <language_translations>
+              <language_translation language="UK">Microsoft Office Small Business</language_translation>
+              <language_translation language="DK">Microsoft Office Small Business</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="Microsoft Office Professional" uuid="5531da81-326a-40d1-9845-c36a2c78126a">
+            <property_values>
+              <property_value name="Info" property_uuid="383b94f8-f160-467e-875c-5dd425ca2187">Microsoft Office Professional- Small Business Ed. plus Access database</property_value>
+              <property_value name="Price" property_uuid="7587d376-cabe-47c8-8e9b-7d3723fdb34d">499</property_value>
+            </property_values>
+            <language_translations>
+              <language_translation language="UK">Microsoft Office Professional</language_translation>
+              <language_translation language="DK">Microsoft Office Professional</language_translation>
+            </language_translations>
+          </type_value>
+        </type_values>
+      </type>
+      <type name="UsageType" uuid="46f24207-57d0-40af-8976-eb7d03fbe234" is_read_only="false">
+        <type_values>
+          <type_value name="Desktop Replacement" uuid="e263e5b5-9089-4a42-8873-978530aeff30">
+            <property_values/>
+            <language_translations>
+              <language_translation language="UK">Desktop Replacement</language_translation>
+              <language_translation language="DK">Erstatning for traditionel PC</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="Lightweight Traveler" uuid="02a7fdd7-def0-4440-af4f-3574ed27b7ba">
+            <property_values/>
+            <language_translations>
+              <language_translation language="UK">Lightweight Traveler</language_translation>
+              <language_translation language="DK">Letvægts model</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="Basic Computing" uuid="890d4761-0117-4fb9-ad1d-6daeebf87b24">
+            <property_values/>
+            <language_translations>
+              <language_translation language="UK">Basic Computing</language_translation>
+              <language_translation language="DK">Basal funktionalitet</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="Gaming" uuid="e5daae12-0c47-43a7-9c4b-78b3371bfeaa">
+            <property_values/>
+            <language_translations>
+              <language_translation language="UK">Gaming</language_translation>
+              <language_translation language="DK">Spil</language_translation>
+            </language_translations>
+          </type_value>
+        </type_values>
+      </type>
+      <type name="WeightIntervalType" uuid="bbec3abf-3d4e-4d05-a3aa-4ec24fbf2e3e" is_read_only="false">
+        <type_values>
+          <type_value name="3 - 5 lbs." uuid="22ab2f92-7f5f-4136-a1f7-5dbe17e9ff5a">
+            <property_values/>
+            <language_translations>
+              <language_translation language="UK">3 - 5 lbs.</language_translation>
+              <language_translation language="DK">1,5 til 2,5 kg</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="5 - 7 lbs." uuid="25e20340-dd31-44b7-a372-43bf1c612856">
+            <property_values/>
+            <language_translations>
+              <language_translation language="UK">5 - 7 lbs.</language_translation>
+              <language_translation language="DK">2,5 til 3,5 kg</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="Over 7 lbs." uuid="b86cc504-6429-4037-b7fe-a1ba3ca57ced">
+            <property_values/>
+            <language_translations>
+              <language_translation language="UK">Over 7 lbs.</language_translation>
+              <language_translation language="DK">Over 3,5 kg</language_translation>
+            </language_translations>
+          </type_value>
+        </type_values>
+      </type>
+      <type name="HardwareWarrantyType" uuid="56d13b5a-7977-4a48-9a01-c4eca51a1d56" is_read_only="false">
+        <type_values>
+          <type_value name="4yr_premium" uuid="9b545211-b16f-4053-92f5-fcd30b8023dc">
+            <property_values>
+              <property_value name="Info" property_uuid="383b94f8-f160-467e-875c-5dd425ca2187">Premium Solution Package includes: &#xA;- 4 year limited warranty, at-home service and hardware warranty support&#xA;- 4 year accidental damage protection&#xA;- PC Quick Guide Book&#xA;- 30 day access to Support On Call (assistance with how-to questions)</property_value>
+              <property_value name="Price" property_uuid="7587d376-cabe-47c8-8e9b-7d3723fdb34d">267</property_value>
+            </property_values>
+            <language_translations>
+              <language_translation language="UK">4yr Premium Solution Package</language_translation>
+              <language_translation language="DK">4 års udvidet garanti</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="3yr_plus" uuid="aae2f740-7253-4bb7-b322-29d5037df0e2">
+            <property_values>
+              <property_value name="Info" property_uuid="383b94f8-f160-467e-875c-5dd425ca2187">Plus Solution Package includes: &#xA;- 3 year limited warranty, at-home service and hardware warranty support&#xA;- PC Quick Guide Book&#xA;- 30 day access to Suport On Call (assistance with how-to questions)</property_value>
+              <property_value name="Price" property_uuid="7587d376-cabe-47c8-8e9b-7d3723fdb34d">118</property_value>
+            </property_values>
+            <language_translations>
+              <language_translation language="UK">3yr Plus Solution Package</language_translation>
+              <language_translation language="DK">3 års udvidet garanti</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="4yr_ltd_warranty" uuid="1b5fdefd-fee5-430a-afcc-a087458b0bb3">
+            <property_values>
+              <property_value name="Info" property_uuid="383b94f8-f160-467e-875c-5dd425ca2187">4 year limited warranty, at-home service, and hardware warranty support plus nights and weekends</property_value>
+              <property_value name="Price" property_uuid="7587d376-cabe-47c8-8e9b-7d3723fdb34d">150</property_value>
+            </property_values>
+            <language_translations>
+              <language_translation language="UK">4 Year Limited Warranty</language_translation>
+              <language_translation language="DK">4 års garanti</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="3yr_ltd_warranty" uuid="e2e3b3da-cb1d-440d-873a-b7696eec94d0">
+            <property_values>
+              <property_value name="Info" property_uuid="383b94f8-f160-467e-875c-5dd425ca2187">3 year limited warranty, at-home service, and hardware warranty support plus nights and weekends</property_value>
+              <property_value name="Price" property_uuid="7587d376-cabe-47c8-8e9b-7d3723fdb34d">80</property_value>
+            </property_values>
+            <language_translations>
+              <language_translation language="UK">3 Year Limited Warranty</language_translation>
+              <language_translation language="DK">3 års garanti</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="2yr_ltd_warranty" uuid="dfd7cfb2-2838-4999-ab08-5afbd5214f22">
+            <property_values>
+              <property_value name="Info" property_uuid="383b94f8-f160-467e-875c-5dd425ca2187">2 year limited warranty, at-home service, and hardware warranty support</property_value>
+              <property_value name="Price" property_uuid="7587d376-cabe-47c8-8e9b-7d3723fdb34d">0</property_value>
+            </property_values>
+            <language_translations>
+              <language_translation language="UK">2 Year Limited Warranty</language_translation>
+              <language_translation language="DK">2 års garanti</language_translation>
+            </language_translations>
+          </type_value>
+        </type_values>
+      </type>
+      <type name="AccidentalDamageProtType" uuid="d3b23f5a-eef1-4952-9992-a2d85f697ef0" is_read_only="false">
+        <type_values>
+          <type_value name="None" uuid="458f0319-f451-42a0-bfef-49c13b924f95">
+            <property_values>
+              <property_value name="Price" property_uuid="7587d376-cabe-47c8-8e9b-7d3723fdb34d">0</property_value>
+            </property_values>
+            <language_translations>
+              <language_translation language="UK">None</language_translation>
+              <language_translation language="DK">Ingen</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="4yr" uuid="2d9cc059-d3bc-4bbb-8bf4-72f25e05cad0">
+            <property_values>
+              <property_value name="Info" property_uuid="383b94f8-f160-467e-875c-5dd425ca2187">CompleteCare Accidental Damage Service to 4 year Limited Warranty</property_value>
+              <property_value name="Price" property_uuid="7587d376-cabe-47c8-8e9b-7d3723fdb34d">142</property_value>
+            </property_values>
+            <language_translations>
+              <language_translation language="UK">4 Year Accidental Damage Service</language_translation>
+              <language_translation language="DK">4 års ulykkesforsikring</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="3yr" uuid="dd83623a-272b-4d22-abad-4d939e19b686">
+            <property_values>
+              <property_value name="Info" property_uuid="383b94f8-f160-467e-875c-5dd425ca2187">CompleteCare Accidental Damage Svc to 3 year Limited Warranty</property_value>
+              <property_value name="Price" property_uuid="7587d376-cabe-47c8-8e9b-7d3723fdb34d">112</property_value>
+            </property_values>
+            <language_translations>
+              <language_translation language="UK">3 Year Accidental Damage Service</language_translation>
+              <language_translation language="DK">3 års ulykkesforsikring</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="2yr" uuid="75f875d5-ffeb-4782-97d0-3b99080c3ee9">
+            <property_values>
+              <property_value name="Info" property_uuid="383b94f8-f160-467e-875c-5dd425ca2187">CompleteCare Accidental Damage Svc to 2 year Limited Warranty</property_value>
+              <property_value name="Price" property_uuid="7587d376-cabe-47c8-8e9b-7d3723fdb34d">80</property_value>
+            </property_values>
+            <language_translations>
+              <language_translation language="UK">2 Year Accidental Damage Service</language_translation>
+              <language_translation language="DK">2 års ulykkesforsikring</language_translation>
+            </language_translations>
+          </type_value>
+        </type_values>
+      </type>
+      <type name="AntiVirusType" uuid="b7277536-2216-4855-a49a-d3c1ad9f5c6f" is_read_only="false">
+        <type_values>
+          <type_value name="McAfee_24" uuid="a1028ee4-5976-458d-917a-4a71af4ec447">
+            <property_values>
+              <property_value name="Info" property_uuid="383b94f8-f160-467e-875c-5dd425ca2187">McAfee Security Center with VirusScan, Firewall, Spyware Removal, 24-months [included in price]</property_value>
+              <property_value name="Price" property_uuid="7587d376-cabe-47c8-8e9b-7d3723fdb34d">0</property_value>
+            </property_values>
+            <language_translations>
+              <language_translation language="UK">McAfee 24 months</language_translation>
+              <language_translation language="DK">McAfee 24 måneder</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="McAfee_36" uuid="b468f7b8-2f20-49e4-bd29-9fa4aab57c4a">
+            <property_values>
+              <property_value name="Info" property_uuid="383b94f8-f160-467e-875c-5dd425ca2187">McAfee Security Center with VirusScan, Firewall, Spyware Removal, 36-months</property_value>
+              <property_value name="Price" property_uuid="7587d376-cabe-47c8-8e9b-7d3723fdb34d">20</property_value>
+            </property_values>
+            <language_translations>
+              <language_translation language="UK">McAfee 36 months</language_translation>
+              <language_translation language="DK">McAfee 36 måneder</language_translation>
+            </language_translations>
+          </type_value>
+        </type_values>
+      </type>
+      <type name="ResolutionType" uuid="03b75af6-e2ec-4bd3-a499-387fc74b15cb" is_read_only="false">
+        <type_values>
+          <type_value name="Wide XGA (1280 x 720)" uuid="4cf2261d-f5fe-4cda-a41a-1ee0ba8beb7e">
+            <property_values>
+              <property_value name="Info" property_uuid="383b94f8-f160-467e-875c-5dd425ca2187">For basic photo editing, PowerPoint, spreadsheets or casual games</property_value>
+            </property_values>
+            <language_translations>
+              <language_translation language="UK">Wide XGA (1280 x 720)</language_translation>
+              <language_translation language="DK">Wide XGA (1280 x 720)</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="Wide XGA+ (1680 x 1050)" uuid="16d4f7cd-7b9c-4da0-8954-937059679393">
+            <property_values>
+              <property_value name="Info" property_uuid="383b94f8-f160-467e-875c-5dd425ca2187">- A mobile DVD player&#xA;- Advanced photo editing or gaming&#xA;- Computer aided drafting, graphic design, or video editing</property_value>
+            </property_values>
+            <language_translations>
+              <language_translation language="UK">Wide XGA+ (1680 x 1050)</language_translation>
+              <language_translation language="DK">Wide XGA+ (1680 x 1050)</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="Wide UXGA (1920 x 1200)" uuid="45366235-9516-4803-b81b-534d06e297a6">
+            <property_values>
+              <property_value name="Info" property_uuid="383b94f8-f160-467e-875c-5dd425ca2187">- A mobile DVD player&#xA;- Advanced photo editing or gaming&#xA;- Computer aided drafting, graphic design, or video editing</property_value>
+            </property_values>
+            <language_translations>
+              <language_translation language="UK">Wide UXGA (1920 x 1200)</language_translation>
+              <language_translation language="DK">Wide UXGA (1920 x 1200)</language_translation>
+            </language_translations>
+          </type_value>
+        </type_values>
+      </type>
+      <type name="DisplaySizeType" uuid="47440c9e-0a1c-4516-83dd-895c17636921" is_read_only="false">
+        <type_values>
+          <type_value name="12.1 inch" uuid="064226b6-7f1f-429f-ab74-1b5c125e8797">
+            <property_values/>
+            <language_translations>
+              <language_translation language="DK">12,1 tommer</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="14.1 inch" uuid="41a43e61-2b07-416e-b53b-3e7d581b05ff">
+            <property_values/>
+            <language_translations>
+              <language_translation language="DK">14,1 tommer</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="15.4 inch" uuid="41c9cd03-35d9-4124-a404-c77ea4c6b762">
+            <property_values/>
+            <language_translations>
+              <language_translation language="DK">15,4 tommer</language_translation>
+            </language_translations>
+          </type_value>
+          <type_value name="17 inch" uuid="b22f9c76-cb95-4ff7-b0ed-8366f8a4d0b0">
+            <property_values/>
+            <language_translations>
+              <language_translation language="DK">17 tommer</language_translation>
+            </language_translations>
+          </type_value>
+        </type_values>
+      </type>
+      <type name="ShowAsType" uuid="50ddb465-31c4-4e61-a825-3426046e27c1" is_read_only="false">
+        <description>Defined from table &apos;ShowAsType&apos; on Thu Aug 10 10:41:32 2006</description>
+        <type_values>
+          <type_value name="DropDown" uuid="5f8f594f-ebf1-4d34-9d1a-f932dd5615f2">
+            <property_values/>
+            <language_translations/>
+          </type_value>
+          <type_value name="Boolean" uuid="82be401b-b58f-4030-990a-c79865d873e2">
+            <property_values/>
+            <language_translations/>
+          </type_value>
+          <type_value name="RadioButton" uuid="54c11a92-8a01-4c4a-95e8-4af18a908376">
+            <property_values/>
+            <language_translations/>
+          </type_value>
+          <type_value name="ReadOnly" uuid="80a85d2e-52d8-4846-a550-35da173d6d70">
+            <property_values/>
+            <language_translations/>
+          </type_value>
+        </type_values>
+      </type>
+      <type name="CountryType" uuid="31a40864-d7ab-465e-9448-9bee558af834" is_read_only="false">
+        <type_values>
+          <type_value name="USA" uuid="71441a98-abe4-4dd0-9dd9-746b5138e87d">
+            <property_values/>
+            <language_translations/>
+          </type_value>
+          <type_value name="China" uuid="f0480db6-ff32-4426-858c-f812e493fa6f">
+            <property_values/>
+            <language_translations/>
+          </type_value>
+          <type_value name="India" uuid="cfa995c3-992c-416e-a5b3-86d5397ae2a9">
+            <property_values/>
+            <language_translations/>
+          </type_value>
+        </type_values>
+      </type>
+      <type name="FreqType" uuid="49106724-d6e0-4fb0-b11e-fe35e66b7af3" is_read_only="false">
+        <type_values>
+          <type_value name="2300Mhz" uuid="f3398d9e-6bd5-415a-bd38-f695400e53e2">
+            <property_values/>
+            <language_translations/>
+          </type_value>
+          <type_value name="2100MHz" uuid="6fe5c8a3-fc80-4c5b-b311-f1dc800254ef">
+            <property_values/>
+            <language_translations/>
+          </type_value>
+          <type_value name="900Mhz" uuid="1880c30c-b40d-403d-98d2-35a05308907e">
+            <property_values/>
+            <language_translations/>
+          </type_value>
+          <type_value name="800MHz" uuid="c094c4b2-1423-4f7a-b534-453a14d770a4">
+            <property_values/>
+            <language_translations/>
+          </type_value>
+        </type_values>
+      </type>
+      <type name="TechType" uuid="604ecfce-37ce-4728-a0ee-28a6bb8a5f61" is_read_only="false">
+        <type_values>
+          <type_value name="3G" uuid="4ce76a8d-db96-4c31-b8b5-12607a348602">
+            <property_values/>
+            <language_translations/>
+          </type_value>
+          <type_value name="4G" uuid="ecb5c53d-5bb9-49dc-8b2d-4db4dc82dd63">
+            <property_values/>
+            <language_translations/>
+          </type_value>
+        </type_values>
+      </type>
+    </variable_types>
+    <property_groups>
+      <property_group group="product_model">
+        <properties>
+          <property name="BOMGroupName" type="String" export_property="true" uuid="de00ea3f-c170-4b25-bb3a-f4639f906cd2" is_read_only="false"/>
+          <property name="Version" type="String" export_property="true" uuid="3d008a8c-1bb7-4798-9009-c4d424d9fc60" is_read_only="false"/>
+        </properties>
+      </property_group>
+      <property_group group="groups">
+        <properties>
+          <property name="Name" type="String" export_property="true" uuid="3825aabb-65a9-42e9-9bba-a5cdfec7e07f" is_read_only="false" builtin="true">
+            <description>The name of the group. Group names must start with a letter or an underscore (_), followed by letters, digits or underscores.</description>
+          </property>
+          <property name="Description" type="String" export_property="true" uuid="15c16f5a-5390-412c-9940-8609aabfa0a8" is_read_only="false" builtin="true">
+            <description>Description of group. Used for internal documentation of the model.</description>
+          </property>
+          <property name="FullyQualifiedName" type="String" export_property="true" uuid="5d4c673d-5701-4190-9dcf-833761441afa" is_read_only="false" builtin="true">
+            <description>The Fully Qualified Name of the group.</description>
+          </property>
+          <property name="Private" type="Boolean" export_property="true" uuid="1bf20b97-9261-46a8-bc15-59a5eece02f1" is_read_only="false" builtin="true">
+            <description>When a group is private, all variables in the group and all sub-groups are private. Thus, the content of a private group is not included in the VT file, but any rules that bind variables inside and outside the group remain in effect.</description>
+          </property>
+          <property name="Show" type="Boolean" export_property="true" uuid="fcf321d8-b2f1-48e6-a2a1-1cf133f3e96a" is_read_only="false">
+            <description>Defined from table &apos;ShowAsType&apos; on Thu Aug 10 10:41:32 2006</description>
+          </property>
+          <property name="Info" type="String" export_property="true" uuid="ccf1f9a7-9a4d-4de8-b593-59909a2c3670" is_read_only="false">
+            <description>Defined from table &apos;ShowAsType&apos; on Thu Aug 10 10:41:32 2006</description>
+          </property>
+          <property name="Image" type="String" export_property="true" uuid="a6220b6f-8b4b-478e-a039-c9402be21e71" is_read_only="false">
+            <description>Defined from table &apos;ShowAsType&apos; on Thu Aug 10 10:41:32 2006</description>
+          </property>
+        </properties>
+      </property_group>
+      <property_group group="variables">
+        <properties>
+          <property name="Name" type="String" export_property="true" uuid="da01c5bb-e4d5-4e58-99d9-d3dd5e63150c" is_read_only="false" builtin="true">
+            <description>The name of the variable. Variable names must start with a letter or an underscore (_), followed by letters, digits or underscores.</description>
+          </property>
+          <property name="Description" type="String" export_property="true" uuid="17bfa124-8017-4ee3-857e-85d55a96c137" is_read_only="false" builtin="true">
+            <description>Description of variable. Used for internal documentation of the model.</description>
+          </property>
+          <property name="FullyQualifiedName" type="String" export_property="true" uuid="7da65f93-681a-4b5a-a695-4ba2d2a73b8d" is_read_only="false" builtin="true">
+            <description>The Fully Qualified Name of the variable.</description>
+          </property>
+          <property name="Private" type="Boolean" export_property="true" uuid="264a05b3-d175-4a83-8b29-50e8f67494e2" is_read_only="false" builtin="true">
+            <description>A private variable is not included in the VT file, but it can still be used in rules. Making the variable private will make the VT file smaller.</description>
+          </property>
+          <property name="Bound" type="Integer" export_property="true" uuid="08837f8b-6d94-4512-a031-91768390645e" is_read_only="false" builtin="true">
+            <description>The upper bound for variables of type Range. The value of range variables must be in the interval from 0 to the number given by this property.</description>
+          </property>
+          <property name="DefaultValue" type="Implied" export_property="true" uuid="f5368423-1754-4b6a-be2c-1e9ca9dd279a" is_read_only="false">
+            <description>Defined from table &apos;ShowAsType&apos; on Thu Aug 10 10:41:32 2006</description>
+          </property>
+          <property name="Show" type="Boolean" export_property="true" uuid="0e05d875-a158-4d59-9e33-56fc43fa7da5" is_read_only="false">
+            <description>Defined from table &apos;ShowAsType&apos; on Thu Aug 10 10:41:32 2006</description>
+          </property>
+          <property name="Info" type="String" export_property="true" uuid="35628ff7-821d-415c-9f17-357c99c60bc8" is_read_only="false">
+            <description>Defined from table &apos;ShowAsType&apos; on Thu Aug 10 10:41:32 2006</description>
+          </property>
+          <property name="Image" type="String" export_property="true" uuid="0e9b83c2-97c2-486a-981d-1bdec41bb63d" is_read_only="false">
+            <description>Defined from table &apos;ShowAsType&apos; on Thu Aug 10 10:41:32 2006</description>
+          </property>
+          <property name="Required" type="Boolean" export_property="true" uuid="4f9257f7-5c69-4b6f-ba00-489d5511d8c4" is_read_only="false">
+            <description>Defined from table &apos;ShowAsType&apos; on Thu Aug 10 10:41:32 2006</description>
+          </property>
+          <property name="ShowAs" type="ShowAsType" export_property="true" uuid="4739d619-4953-433b-9fe9-34ab878dc818" is_read_only="false">
+            <description>Defined from table &apos;ShowAsType&apos; on Thu Aug 10 10:41:32 2006</description>
+          </property>
+        </properties>
+      </property_group>
+      <property_group group="values">
+        <properties>
+          <property name="Name" type="String" export_property="true" uuid="d89c4dc3-5c64-4b75-9af1-3daa44032b1a" is_read_only="false" builtin="true">
+            <description>The enum value. Enumeration values can be any string. The only restrictions is that they have to be unique within the type.</description>
+          </property>
+          <property name="Description" type="String" export_property="true" uuid="aad36afd-7323-4768-8742-d7e09f16cb15" is_read_only="false" builtin="true">
+            <description>Description of value. Used for internal documentation of the model.</description>
+          </property>
+          <property name="FullyQualifiedName" type="String" export_property="true" uuid="9ca2dff5-5003-42c9-9ac6-785856ee51e8" is_read_only="false" builtin="true">
+            <description>The Fully Qualified Name of the Value.</description>
+          </property>
+          <property name="Weight" type="Float" export_property="true" uuid="61e184d7-6bb6-49f1-a088-b1d3953fb65b" is_read_only="false"/>
+          <property name="Price" type="Float" export_property="true" uuid="7587d376-cabe-47c8-8e9b-7d3723fdb34d" is_read_only="false"/>
+          <property name="Info" type="String" export_property="true" uuid="383b94f8-f160-467e-875c-5dd425ca2187" is_read_only="false">
+            <description>Defined from table &apos;ShowAsType&apos; on Thu Aug 10 10:41:32 2006</description>
+          </property>
+          <property name="Image" type="String" export_property="true" uuid="9aaa603a-5b91-428f-8080-5722aac65697" is_read_only="false">
+            <description>Defined from table &apos;ShowAsType&apos; on Thu Aug 10 10:41:32 2006</description>
+          </property>
+        </properties>
+      </property_group>
+      <property_group group="rules">
+        <properties/>
+      </property_group>
+      <property_group group="relations">
+        <properties/>
+      </property_group>
+      <property_group group="functions">
+        <properties/>
+      </property_group>
+    </property_groups>
+    <variable_orders/>
+    <languages>
+      <language name="UK" is_default_language="true">
+        <system_translations>
+          <translation key="Save">Save</translation>
+          <translation key="Load">Load</translation>
+          <translation key="Reset">Reset</translation>
+          <translation key="Complete">Complete</translation>
+          <translation key="Solutions">Solutions</translation>
+          <translation key="Language">Language</translation>
+          <translation key="SelectHint">Click to select</translation>
+          <translation key="DeselectHint">Click to deselect</translation>
+          <translation key="ForceHint">Click to force select</translation>
+          <translation key="ForceDeselectHint">Click to force deselect</translation>
+          <translation key="CannotSelectHint">Cannot be selected</translation>
+          <translation key="CannotDeselectHint">Cannot be deselected</translation>
+          <translation key="ConflictForceMsg">If you choose $0 the following choices are invalid&#xA;&#xA;$1&#xA;&#xA;Remove invalid choices?</translation>
+          <translation key="CultureInfo">en-US</translation>
+          <translation key="ApplyDefaultValues">Apply default values</translation>
+          <translation key="ApplyDefaultValue">Apply default value $0 to $1</translation>
+          <translation key="LoadVTFile">Load new vt file</translation>
+          <translation key="UK">English</translation>
+          <translation key="DK">Danish</translation>
+        </system_translations>
+        <custom_translations/>
+      </language>
+      <language name="DK" is_default_language="false">
+        <system_translations>
+          <translation key="Save">Gem</translation>
+          <translation key="Load">Åbn ny konfiguration</translation>
+          <translation key="Reset">Nulstil</translation>
+          <translation key="Print">Udskriv</translation>
+          <translation key="Complete">Færdiggør</translation>
+          <translation key="Solutions">Antal løsninger</translation>
+          <translation key="Language">Sprog</translation>
+          <translation key="SelectHint">Klik for at vælge</translation>
+          <translation key="DeselectHint">Klik for at fravælge</translation>
+          <translation key="ForceHint">Klik for at tvinge valg</translation>
+          <translation key="ForceDeselectHint">Klik for at tvinge fravalg</translation>
+          <translation key="CannotSelectHint">Kan ikke vælges</translation>
+          <translation key="CannotDeselectHint">Kan ikke fravælges</translation>
+          <translation key="ConflictForceMsg">Hvis du vælger $0 er følgende valg ugyldige&#xA; &#xA;$1&#xA; &#xA;Vil du fjerne de ugyldige valg?</translation>
+          <translation key="CultureInfo">da-DK</translation>
+          <translation key="ApplyDefaultValues">Tildel alle default værdier</translation>
+          <translation key="ApplyDefaultValue">Tildel default værdi $0 til $1</translation>
+          <translation key="LoadVTFile">Åbn ny vt fil</translation>
+          <translation key="UK">Engelsk</translation>
+          <translation key="DK">Dansk</translation>
+        </system_translations>
+        <custom_translations/>
+      </language>
+    </languages>
+  </product_model>
+</workspace>
