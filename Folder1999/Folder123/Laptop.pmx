@@ -8,7 +8,6 @@
         <property_value name="cache_size">10</property_value>
         <property_value name="dynamic_vt">false</property_value>
         <property_value name="exp_static">true</property_value>
-        <property_value name="log_file"></property_value>
         <property_value name="no_warnings">false</property_value>
         <property_value name="preserve_memory">false</property_value>
         <property_value name="sort_rules">3</property_value>
@@ -17,7 +16,7 @@
         <property_value name="table_size">10</property_value>
         <property_value name="timeout">-1</property_value>
         <property_value name="tob_cache_size">100</property_value>
-        <property_value name="tob_decomp_technique"></property_value>
+        <property_value name="tob_daog_preprocessor">true</property_value>
         <property_value name="tob_preserve_memory">false</property_value>
         <property_value name="tob_split">true</property_value>
         <property_value name="tob_table_size">100</property_value>
@@ -1768,7 +1767,6 @@
           </type_value>
           <type_value name="T1300" uuid="7201a451-91ef-4de1-b98a-7261cf05c538">
             <property_values>
-              <property_value name="Info" property_uuid="383b94f8-f160-467e-875c-5dd425ca2187"></property_value>
               <property_value name="Price" property_uuid="7587d376-cabe-47c8-8e9b-7d3723fdb34d">112</property_value>
             </property_values>
             <language_translations>
@@ -1778,7 +1776,6 @@
           </type_value>
           <type_value name="T2500" uuid="30025c23-4789-4d93-83f0-1c6bb36db3c9">
             <property_values>
-              <property_value name="Info" property_uuid="383b94f8-f160-467e-875c-5dd425ca2187"></property_value>
               <property_value name="Price" property_uuid="7587d376-cabe-47c8-8e9b-7d3723fdb34d">213</property_value>
             </property_values>
             <language_translations>
@@ -1788,7 +1785,6 @@
           </type_value>
           <type_value name="T2400" uuid="41a9d8ae-d02d-47bb-ae9a-77ddad3c6eda">
             <property_values>
-              <property_value name="Info" property_uuid="383b94f8-f160-467e-875c-5dd425ca2187"></property_value>
               <property_value name="Price" property_uuid="7587d376-cabe-47c8-8e9b-7d3723fdb34d">198</property_value>
             </property_values>
             <language_translations>
@@ -1798,7 +1794,6 @@
           </type_value>
           <type_value name="T2300" uuid="30e16b3d-ef99-43ce-bdae-97d25267e57b">
             <property_values>
-              <property_value name="Info" property_uuid="383b94f8-f160-467e-875c-5dd425ca2187"></property_value>
               <property_value name="Price" property_uuid="7587d376-cabe-47c8-8e9b-7d3723fdb34d">206</property_value>
             </property_values>
             <language_translations>
